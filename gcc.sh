@@ -12,4 +12,6 @@
 #!/bin/bash
 file_name=$1
 
-avr-gcc -g -Os -mmcu=atmega128 -c $file_name.c && avr-gcc -g -mmcu=atmega128 -o $file_name.elf $file_name.o && avr-objcopy -j .text -j .data -O ihex $file_name.elf $file_name.hex
+avr-gcc -g -Os -mmcu=atmega128 -c $file_name.c && 
+avr-gcc -g -mmcu=atmega128 -o $file_name.elf $file_name.o && 
+avr-objcopy -j .text -j .data -O ihex $file_name.elf $file_name.hex
