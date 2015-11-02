@@ -7,6 +7,8 @@
 #                                                                                   #
 #####################################################################################
 
+# EXAMPLE: "sh gcc.sh something" compiles something.c and creates object, hex and elf
+
 #!/bin/bash
 file_name=$1
 
