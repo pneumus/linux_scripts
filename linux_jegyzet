@@ -1,0 +1,103 @@
+Magyar Linux Mint ismertető:
+
+	https://linuxmint.hu/hir/2015/08/a-baratsagos-linux?
+utm_content=buffer2f504&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+PyQt 4 telepítése:
+
+apt-cache search pyqt
+sudo apt-get install python-qt4
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+c/c++ fordító és man telepítése
+
+sudo apt-get install build-essential manpages-dev
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Default OS (pl. Windows) beállítása GRUB-hoz:
+
+	grep menuentry /boot/grub/grub.cfg
+		Keressük ki, és másoljuk ki a kívánt menuentryt.
+		Pl: 'Windows 7 (loader) (on /dev/sdc1)'
+	sudo gedit /etc/default/grub 
+		Adjunk hozzá két új sort a fájlhoz: 
+		GRUB_SAVEDEFAULT=true  
+		GRUB_DEFAULT='Windows 7 (loader) (ezen: /dev/sda1)'
+		(a második sort a grub.cfg-ből állíthatjuk elő)
+		Egy kis extra ( a számérték jelzi hány másodpercig mutatja a menüt )
+		GRUB_TIMEOUT=3
+	sudo update-grub
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Nvidia driver telepítés:
+	
+	sudo apt-get purge nvidia*
+	sudo add-apt-repository ppa:graphics-drivers
+	sudo apt-get update
+	sudo apt-get install nvidia-355 
+		( 355 egy verzió, nvidia oldalán a legfrissebb látszik )
+	sudo reboot
+	
+	Több információ:
+		https://sites.google.com/site/easylinuxtipsproject/12
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+PL2303:
+
+	dmesg | grep tty
+	sudo apt-get install gtkterm
+	gtkterm
+
+	
+	https://www.fir3net.com/UNIX/Linux/how-do-i-connect-to-a-serial-device-using-a-usb-to-serial-convertor-in-linux.html
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Bootolható Windows7 pendrive készítés:
+
+	sudo add-apt-repository ppa:colingille/freshlight
+	sudo sh -c "sed -i 's/trusty/saucy/g' /etc/apt/sources.list.d/colingille-freshlight-trusty.list"
+	sudo apt-get update
+	sudo apt-get install winusb
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Compiz beállítása Linux Mint alatt:
+
+	sudo apt-get install compiz compizconfig-settings-manager 
+	sudo apt-get install compiz-plugins-extra libdecoration0-dev
+	Távolítsuk el a tálcát!	
+	compiz --replace
+	sudo apt-get install dconf-editor
+	
+/////////////////////////////////////////////////////////////////////////////////////
+
+Egy fájl minden sorának első karaktereit eltörölni a "sed" segítségével
+
+	sed 's/^...//' pelda.fajl	
+	
+/////////////////////////////////////////////////////////////////////////////////////
+
+Nagyszerű driver oldal!
+	
+	http://lxr.free-electrons.com/source/drivers/
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+CoolTerm a legjobb SERIAL program, amit eddig találtam!
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+STM32F3 + Eclipse + OpenOCD beizzítása
+
+	sudo add-apt-repository ppa:webupd8team/java
+	sudo apt-get update
+	sudo apt-get install oracle-java8-installer
+	
+	
