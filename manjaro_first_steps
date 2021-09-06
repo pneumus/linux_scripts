@@ -1,0 +1,4 @@
+# Install Google Chrome
+sudo pacman -Syu yay
+yay -S install google-chrome
+
