@@ -3,3 +3,15 @@
     sudo pacman -Syu yay
     yay -S google-chrome
 
+# Install proprietary nVidia driver
+    # Download driver from nvidia's website
+    # Press Ctrl + Alt + F2 and login as root
+    # Disable the graphical target:
+        systemctl isolate multi-user.target
+    # Unload nVidia drivers:
+        modprobe -r nvidia-drm
+    # Install new nvidia drivers:
+        sh nvidia-driver.run
+    # Restart graphical target:
+        systemctl start graphical.target
+    
