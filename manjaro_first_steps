@@ -15,3 +15,5 @@
     # Restart graphical target:
         systemctl start graphical.target
     
+    
+# https://github.com/foxlet/macOS-Simple-KVM
