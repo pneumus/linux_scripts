@@ -7,6 +7,8 @@
     yay -Syu google-chrome
 
 # Install proprietary nVidia driver
+    # Check your card model
+        lspci | grep NVIDIA
     # Download driver from nvidia's website
     # Press Ctrl + Alt + F2 and login as root
     # Disable the graphical target:
