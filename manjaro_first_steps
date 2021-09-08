@@ -2,9 +2,9 @@
     sudo pacman -Syu
 
 # Install Google Chrome
-    sudo pacman -S --needed base-devel git
+    sudo pacman -Syu --needed base-devel git
     sudo pacman -Syu yay
-    yay -S google-chrome
+    yay -Syu google-chrome
 
 # Install proprietary nVidia driver
     # Download driver from nvidia's website
