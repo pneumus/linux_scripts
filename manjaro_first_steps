@@ -1,3 +1,6 @@
+# Upgrade & Update your system
+    sudo pacman -Syu
+
 # Install Google Chrome
     sudo pacman -S --needed base-devel git
     sudo pacman -Syu yay
