@@ -7,6 +7,10 @@
     yay -Syu google-chrome
 
 # Install proprietary nVidia driver
+    # Check kernel version
+        uname -r
+    # Install kernel headers 
+        pacman -S linux-headers
     # Check your card model
         lspci | grep NVIDIA
     # Download driver from nvidia's website
@@ -15,13 +19,9 @@
         systemctl isolate multi-user.target
     # Unload nVidia drivers:
         modprobe -r nvidia-drm
-    # Check kernel version
-        uname -r
-    # Substitute kernel version into linuxXYZ-headers    
-    # and Install kernel headers as following
-        pacman -R linux513-headers
     # Install new nvidia drivers:
         sh nvidia-driver-xxx.run
+    # Select 'Yes' repeatedly when prompted
     # Restart graphical target:
         systemctl start graphical.target
     
