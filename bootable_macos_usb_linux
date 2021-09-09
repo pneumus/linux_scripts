@@ -1,0 +1,22 @@
+# How to create a bootable 
+# macOS install media
+# in Manjaro Linux
+
+
+# Install prerequisities
+    sudo pacman -S qemu
+# Clone kholia-OSX and open the folder
+    git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
+    cd OSX-KVM
+# Download the dmg file for desired macOS
+    ./fetch-macOS-v2.py
+# Determine your USB device ( e.g. /dev/sda )
+    lsblk
+# Install gdisk
+    sudo pacman -Syu gdisk
+# Open USB with gdisk
+    sudo gdisk /dev/sda
+# Enter 'o' and select 'y' (yes)
+# Enter 'n' and press 'Enter' three times 
+# then enter '0700' and press Enter again 
+# Finally: Enter 'w' and enter 'y' (yes) 
