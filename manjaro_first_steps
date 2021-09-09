@@ -24,7 +24,32 @@
     # Select 'Yes' repeatedly when prompted
     # Restart graphical target:
         systemctl start graphical.target
-    
+        
+# Create bootable macOS pendrive
+    # Install prerequisities
+        sudo pacman -S qemu
+    # Clone kholia-OSX and open the folder
+        git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
+        cd OSX-KVM
+    # Download the dmg file for macOS
+        ./fetch-macOS-v2.py
+    # Convert dmg to img
+        qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+    # Write it to your pendrive
+        dd if=/path/to/osx.img of=/dev/sdX && sync
+        ( Example: sudo dd if=/home/mateg/OSX-KVM/BigSur.img of=/dev/sda && sync )
+
+# Create bootable macOS pendrive alternative
+    # Clone kholia-OSX and open the folder
+        git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
+        cd OSX-KVM
+    # Download the dmg file for macOS
+        ./fetch-macOS-v2.py
+    # Install dmg2img
+        sudo pacman -S dmg2img
+    # Transfer dmg to pendrive
+        sudo dmg2img -v -i /path/to/image_file.dmg -o /dev/sdb
+          
 # Restart KDE
     kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
     
