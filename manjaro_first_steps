@@ -52,4 +52,7 @@
 # Restart KDE
     kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
     
-# https://github.com/foxlet/macOS-Simple-KVM
+# Install macOS KVM
+    https://www.youtube.com/watch?v=SjNGPXEMkCM
+    
+
