@@ -59,6 +59,18 @@
     # Install VSCode with Snap    
         sudo snap install code --classic
           
+# Setup VSCode for AVR-GCC
+    # Install avr-gcc & libraries
+        sudo pacman -S avr-gcc avr-libc
+    # Install C++ and C++ InstelliSense Plugins for VSCode
+    # Press F1 and type "C/C++ Edit Configuration (UI)"
+    # Set compiler path
+        /usr/bin/avr-gcc
+    # Set IntelliSense mode
+        linux gcc-x86
+    # Edit Defines - add MCU model name 
+        __AVR_ATtiny2313__
+          
 # Restart KDE
     kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
     
@@ -67,4 +79,6 @@
     
 # PCI passthrough for macOS KVM
     https://gist.github.com/vwxyzjn/ab94cb5d759360f252b0441bf8d998b4
+    # Footnote:
+        Grub setup f*cks up my audio settings
     
