@@ -54,6 +54,7 @@
         sudo pacman -S snapd
     # Enable Snap socket
         sudo systemctl enable --now snapd.socket
+    # Create symbolic link for /snap    
         sudo ln -s /var/lib/snapd/snap /snap
     # Install VSCode with Snap    
         sudo snap install code --classic
