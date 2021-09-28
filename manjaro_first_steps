@@ -70,7 +70,12 @@
         linux gcc-x86
     # Edit Defines - add MCU model name 
         __AVR_ATtiny2313__
-          
+    # Makefile content in project folder
+        upload: main.hex
+            avrdude -v -p t2313 -c stk500 -P /dev/ttyUSB0 -U main.hex
+        main.hex: main.c
+            avr-gcc main.c -mmcu=attiny2313 -DF_CPU=16000000UL -0s -o main.hex
+        
 # Restart KDE
     kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
     
