@@ -48,6 +48,9 @@
         Access Mode: Read and Write
         Local Echo: [X] Echo received data
         On Startup: [ ] Connect immediately.
+
+# Install VSCode 
+        sudo snap install code --classic
           
 # Restart KDE
     kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
