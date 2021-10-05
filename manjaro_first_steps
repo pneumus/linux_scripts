@@ -34,6 +34,10 @@
     # 7523 <- product
     # Attach device to tty port
         sudo modprobe usbserial vendor=0x1a86 product=0x7523  
+    # Check if device is attached to tty port
+        sudo dmesg | grep -i tty
+        # Sample line: 
+        # [57.776196] usb 1-3: cp210x converter now attached to ttyUSB0
     # Install serial terminal
         yay -S cutecom
     # Start cutecom
