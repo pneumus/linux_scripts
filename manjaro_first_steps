@@ -25,7 +25,7 @@
     # Restart graphical target:
         systemctl start graphical.target
         
-# Setup USB-UART converter 
+# Setup USB-UART converter ( Tested with cp210x )
     # Get device ID ( vendor:product )
        lsusb
     # Example:
@@ -35,19 +35,9 @@
     # Attach device to tty port
         sudo modprobe usbserial vendor=0x1a86 product=0x7523  
     # Install serial terminal
-        sudo pacman -Syu moserial
-    # Start moserial
-        sudo moserial
-    # Open Port Setup ( ? )
-        Device: /dev/ttyUSB0
-        Baud Rate: 115200
-        Data Bits: 8
-        Stop Bits: 1
-        Parity: None
-        Handshake: [X] Hardware
-        Access Mode: Read and Write
-        Local Echo: [X] Echo received data
-        On Startup: [ ] Connect immediately.
+        yay -S cutecom
+    # Start cutecom
+        sudo cutecom
 
 # Install VSCode 
     # Get Snap package manager
