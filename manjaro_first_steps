@@ -25,7 +25,7 @@
     # Restart graphical target:
         systemctl start graphical.target
         
-# Setup USB-UART converter ( Tested with cp210x )
+# Setup USB-UART converter ( Tested with Silicon Labs cp210x & QinHeng Electronics CH340)
     # Get device ID ( vendor:product )
        lsusb
     # Example:
