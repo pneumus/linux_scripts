@@ -4,7 +4,8 @@
 # Install Google Chrome ( or even Brave )
     sudo pacman -Syu --needed base-devel git
     sudo pacman -Syu yay
-    yay -Syu google-chrome ( or brave )
+    yay -Syu google-chrome 
+    ( or yay -Syu brave )
 
 # Install proprietary nVidia driver
     # Check kernel version
