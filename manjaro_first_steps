@@ -77,9 +77,10 @@
     
 # Install macOS KVM
     https://github.com/kholia/OSX-KVM
+
     
 # PCI passthrough for macOS KVM
     https://gist.github.com/vwxyzjn/ab94cb5d759360f252b0441bf8d998b4
     # Footnote:
         Grub setup f*cks up my audio settings
-    
+    https://www.youtube.com/watch?v=_JTEsQufSx4
