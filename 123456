@@ -1,0 +1,16 @@
+<License>
+  <Id>7b035d41-992d-408b-96ec-ed40f2d5c46f</Id>
+  <Expiration>Thu, 30 Dec 2021 13:23:01 GMT</Expiration>
+  <LicenseAttributes>
+    <Attribute name="SupportedDeviceTypes">All</Attribute>
+    <Attribute name="SupportedApplicationTypes">All</Attribute>
+    <Attribute name="MachineId">123456</Attribute>
+    <Attribute name="OrderId">07871e73-75b8-496e-9bda-a1515adcd469</Attribute>
+    <Attribute name="MaximumNumberOfConcurrentDevices">4</Attribute>
+    <Attribute name="SupportEndsAt">Thu, 30 Dec 2021 13:23:01 GMT</Attribute>
+    <Attribute name="ChannelId">EX0000001</Attribute>
+    <Attribute name="LicenseId">EX0000001</Attribute>
+    <Attribute name="CustomerId">EX0000001</Attribute>
+  </LicenseAttributes>
+  <Signature>MEQCIGYT78kvDDFX7Q/h7DuuxMKLLB/FbO2AMbGm4ETSCunBAiBYq6a9xwnbInaclJUz6gn3P3ChpVZ6EosSL3718iNrhg==</Signature>
+</License>
