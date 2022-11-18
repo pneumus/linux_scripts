@@ -30,7 +30,7 @@ Arch Linux Installation Guide:
 		mount /dev/sda1 /mnt/boot
 		
 5.	Install base system
-		pacstrap base base-devel linux linux-firmware vi
+		pacstrap /mnt base base-devel linux linux-firmware vi
 		
 6. 	Generate fstab
 		genfstab -U /mnt >> /mnt/etc/fstab
