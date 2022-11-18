@@ -62,6 +62,7 @@ Arch Linux Installation Guide:
 		ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
 
 13.	Unmount & Reboot 
+		Ctrl+D ( exit chroot )
 		umount -R /mnt
 		reboot
 		
