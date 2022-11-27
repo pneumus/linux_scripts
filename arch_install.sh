@@ -9,9 +9,9 @@
 # Sync the clock
 timedatectl set-ntp true
 # Install Base System
-pacstrap /mnt base base-devel linux linux-firmware vi
+#pacstrap /mnt base base-devel linux linux-firmware vi
 # Generate FSTAB
-genfstab -U /mnt >> /mnt/etc/fstab
+#genfstab -U /mnt >> /mnt/etc/fstab
 
 deploy_func () {
   # Install & Configure Boot Loader
@@ -33,11 +33,11 @@ deploy_func () {
   passwd
 }
 
-export -f deploy_func
+#export -f deploy_func
 # Change Root into installed Linux
-arch-chroot /mnt /bin/bash -c "deploy_func"
+#arch-chroot /mnt /bin/bash -c "deploy_func"
 
 # Exit Chroot & Unmount & Reboot 
-exit
-umount -R /mnt
-reboot
+#exit
+#umount -R /mnt
+#reboot
