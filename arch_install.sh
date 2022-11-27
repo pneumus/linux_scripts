@@ -1,3 +1,11 @@
+#!/bin/bash
+
+# After doing the partitioning with cfdisk ( see: arch_install in this repo )
+# pacman -Sy git 
+# clone the repo via the HTTPS URL
+# chmod 2777 arch_install.sh
+# chown root arch_install.sh
+
 # Sync the clock
 timedatectl set-ntp true
 # Install Base System
