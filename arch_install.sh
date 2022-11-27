@@ -1,3 +1,5 @@
+# Sync the clock
+timedatectl set-ntp true
 # Install Base System
 pacstrap --noconfirm /mnt base base-devel linux linux-firmware vi
 # Generate FSTAB
@@ -11,7 +13,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # Install & Enable Network Manager
 pacman --noconfirm -S networkmanager
 systemctl enable NetworkManager
-# Set locale & language & keyboard layout
+# Set Locale & Set Language & Set Keyboard Layout
 sed -i 's/#en_US/en_US/g' /etc/locale.gen
 echo "LANG=EN-US.UTF-8" > /etc/locale.conf
 echo "KEYMAP=hu" > /etc/vconsole.conf
