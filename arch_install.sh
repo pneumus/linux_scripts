@@ -32,5 +32,7 @@ ln -sf /usr/share/zoneinfo/Europe/Budapest /etc/localtime
 # Set Root Password
 passwd
 # Exit Chroot & Unmount & Reboot 
-Ctrl+D ( exit chroot )
+exit
+umount -R /mnt
+reboot
 umount -R /mnt
