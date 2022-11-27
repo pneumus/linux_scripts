@@ -9,30 +9,29 @@
 # Sync the clock
 timedatectl set-ntp true
 # Install Base System
-pacstrap --noconfirm /mnt base base-devel linux linux-firmware vi
+#pacstrap --noconfirm /mnt base base-devel linux linux-firmware vi
 # Generate FSTAB
-genfstab -U /mnt >> /mnt/etc/fstab
+#genfstab -U /mnt >> /mnt/etc/fstab
 # Change Root into installed Linux
-arch-chroot /mnt /bin/bash
+#arch-chroot /mnt /bin/bash
 # Install & Configure Boot Loader
-pacman --noconfirm -S grub
-grub-install /dev/sda
-grub-mkconfig -o /boot/grub/grub.cfg
+#pacman --noconfirm -S grub
+#grub-install /dev/sda
+#grub-mkconfig -o /boot/grub/grub.cfg
 # Install & Enable Network Manager
-pacman --noconfirm -S networkmanager
-systemctl enable NetworkManager
+#pacman --noconfirm -S networkmanager
+#systemctl enable NetworkManager
 # Set Locale & Set Language & Set Keyboard Layout
-sed -i 's/#en_US/en_US/g' /etc/locale.gen
-echo "LANG=EN-US.UTF-8" > /etc/locale.conf
-echo "KEYMAP=hu" > /etc/vconsole.conf
+#sed -i 's/#en_US/en_US/g' /etc/locale.gen
+#echo "LANG=EN-US.UTF-8" > /etc/locale.conf
+#echo "KEYMAP=hu" > /etc/vconsole.conf
 # Set hostname
-echo "archlinux" > /etc/hostname 
+#echo "archlinux" > /etc/hostname 
 # Set timezone
-ln -sf /usr/share/zoneinfo/Europe/Budapest /etc/localtime
+#ln -sf /usr/share/zoneinfo/Europe/Budapest /etc/localtime
 # Set Root Password
-passwd
+#passwd
 # Exit Chroot & Unmount & Reboot 
-exit
-umount -R /mnt
-reboot
-umount -R /mnt
+#exit
+#umount -R /mnt
+#reboot
