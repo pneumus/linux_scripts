@@ -9,7 +9,7 @@
 # Sync the clock
 timedatectl set-ntp true
 # Install Base System
-#pacstrap --noconfirm /mnt base base-devel linux linux-firmware vi
+pacstrap /mnt base base-devel linux linux-firmware vi
 # Generate FSTAB
 #genfstab -U /mnt >> /mnt/etc/fstab
 # Change Root into installed Linux
