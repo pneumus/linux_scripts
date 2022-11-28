@@ -16,7 +16,4 @@
 4. Enable Display Manager & NetworkManager
 
   systemctl enable sddm
-  systemctl enable NetworkManager
-  
-5. 
   
