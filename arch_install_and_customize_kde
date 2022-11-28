@@ -1,11 +1,11 @@
 1. Add a normal user
 
   useradd -m galma
-  passw galma
+  passwd galma
   
 2. Add user to sudoers group
 
-  vi /etc/sudoers
+  visudo
   ---> Look for "User privilege specification" and "root ALL=(ALL) ALL" 
   ---> Add a similar line i.e. "galma ALL=(ALL) ALL"
   
