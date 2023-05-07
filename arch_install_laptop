@@ -40,7 +40,7 @@ Arch Linux Installation Guide:
 	mount /dev/nvmen0n1p1 /mnt/boot/efi
     
 5. Install the system
-	pacstrap /mnt base base-devel linux linux-firmware 
+	pacstrap /mnt base base-devel linux linux-firmware vi
 
 6. Generate fstab
 	genfstab -U /mnt >> /mnt/etc/fstab
