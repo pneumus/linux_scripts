@@ -41,8 +41,6 @@ Arch Linux Installation Guide:
     
 5. Install the system
 	pacstrap /mnt base base-devel linux linux-firmware 
-	pacstrap /mnt networkmanager iwd
-	# mkinitcpio -p linux
 
 6. Generate fstab
 	genfstab -U /mnt >> /mnt/etc/fstab
