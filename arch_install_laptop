@@ -31,3 +31,11 @@ Arch Linux Installation Guide:
         - Write changes & quit
         
     c) Format partitions  
+    	mkfs.fat /dev/nvme0n1p1
+	mkfs.ext4 /dev/nvme0n1p2
+    
+    d) Mount partitions
+    	mount /dev/nvme0n1p2 /mnt
+	mkdir -p /mnt/boot/efi
+	mount /dev/nvmen0n1p1 /mnt/boot/efi
+    
