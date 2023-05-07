@@ -39,6 +39,10 @@ Arch Linux Installation Guide:
 			- Write changes & Quit
 	- Format the tiny and the big chunk as EXT4
 		mkfs.ext4 /dev/... ( i.e. mkfs.ext4 /dev/sda1 ... sda2 )
+		Note: In case of an "NVME" device, you sometimes need to reread the partition table:
+			blockdev --rereadpt /dev/nvme0n1
+			Then you can format like this:
+			mkfs.ext4 /dev/nvme0n1p1 ...etc.
 	- Mount EXT4 partitions
 		mount /dev/sda2 /mnt
 		mkdir /mnt/boot 
