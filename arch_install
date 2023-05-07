@@ -6,8 +6,23 @@ Arch Linux Installation Guide:
 	
 2.	Check network connection
 		ping gnu.org
-		Note: If your Ethernet does not work, try using "wifi-menu"
+		Note: If your connection does not work, try using "wifi-menu"
+		
+		Alternatively, to connect to Wifi manually:
+		1. List your network <INTERFACE> names
+			iwconfig
+		
+		2. Turn on your wifi adapter 
+			ip link set <INTERFACE> up
+			Note: You can get the <INTERFACE> name with iwconfig, i.e. "wlan0"
+			
+		3. Scan & List nearby network SSIDs
+			iwctl station <INTERFACE> scan
+			iwctl station <INTERFACE> get-networks
 	
+		4. Connect to a specific SSID
+			iwctl station <INTERFACE> connect "SSID" 
+		
 3.	Sync the clock
 		timedatectl set-ntp true
 	
