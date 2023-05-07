@@ -40,7 +40,7 @@ Arch Linux Installation Guide:
 	mount /dev/nvmen0n1p1 /mnt/boot/efi
     
 5. Install the system
-	pacstrap /mnt base base-devel linux linux-firmware grub efibootmgr
+	pacstrap /mnt base base-devel linux linux-firmware 
 	mkinitcpio -p linux
 
 6. Generate fstab
@@ -48,3 +48,30 @@ Arch Linux Installation Guide:
 	
 7. Chroot into freshly installed Arch Distro
 	arch-chroot /mnt /bin/bash	
+	
+8. Install Boot Loader
+	pacman -S grub efibootmgr
+	grub-install /dev/nvme0n1
+	grub-mkconfig -o /boot/grub/grub.cfg
+	
+9. Set password for root user
+	passwd
+
+10. Set locale & language
+	vi /etc/locale.gen
+	Uncomment the desired locale here.
+	vi /etc/locale.conf
+	LANG=EN-US.UTF-8
+	vi /etc/vconsole.conf
+	KEYMAP=us
+		
+11. Set hostname
+	vi /etc/hostname and edit it 
+
+12. Set timezone
+	ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
+
+13. Unmount & Reboot 
+	Ctrl+D ( exit chroot )
+	umount -R /mnt
+	reboot
