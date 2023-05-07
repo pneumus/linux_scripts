@@ -5,20 +5,20 @@ Arch Linux Installation Guide:
     
 2.	Setup Wifi connection
 		a) List your network <INTERFACE> names
-		    iwconfig
+			iwconfig
 		
 		b) Turn on your wifi adapter 
-        ip link set <INTERFACE> up
+        		ip link set <INTERFACE> up
 			
 		c) Scan & List all nearby network <SSID>
-        iwctl station <INTERFACE> scan
-        iwctl station <INTERFACE> get-networks
+        		iwctl station <INTERFACE> scan
+        		iwctl station <INTERFACE> get-networks
 	
 		d) Connect to a specific <SSID>
-			  iwctl station <INTERFACE> connect <SSID>
+			iwctl station <INTERFACE> connect <SSID>
         
 3. Sync the Clock
-    timedatectl set-ntp true        
+	timedatectl set-ntp true        
 
 4. Partitioning
     a) List available partitions and note target <DISK> name
@@ -39,3 +39,12 @@ Arch Linux Installation Guide:
 	mkdir -p /mnt/boot/efi
 	mount /dev/nvmen0n1p1 /mnt/boot/efi
     
+5. Install the system
+	pacstrap /mnt base base-devel linux linux-firmware grub efibootmgr
+	mkinitcpio -p linux
+
+6. Generate fstab
+	genfstab -U /mnt >> /mnt/etc/fstab
+	
+7. Chroot into freshly installed Arch Distro
+	arch-chroot /mnt /bin/bash	
