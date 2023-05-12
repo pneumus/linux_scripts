@@ -1,1 +1,86 @@
-.
+# Upgrade & Update your system
+    sudo pacman -Syu
+
+# Install Google Chrome ( or even Brave )
+    sudo pacman -Syu --needed base-devel git
+    sudo pacman -Syu yay
+    yay -Syu google-chrome 
+    ( or yay -Syu brave )
+
+# Install proprietary nVidia driver
+    # Check kernel version
+        uname -r
+    # Install kernel headers 
+        pacman -S linux-headers
+    # Check your card model
+        lspci | grep NVIDIA
+    # Download driver from nvidia's website
+    # Press Ctrl + Alt + F2 and login as root
+    # Disable the graphical target:
+        systemctl isolate multi-user.target
+    # Unload nVidia drivers:
+        modprobe -r nvidia-drm
+    # Install new nvidia drivers:
+        sh nvidia-driver-xxx.run
+    # Select 'Yes' repeatedly when prompted
+    # Restart graphical target:
+        systemctl start graphical.target
+        
+# Setup USB-UART converter ( Tested with Silicon Labs cp210x & QinHeng Electronics CH340)
+    # Get device ID ( vendor:product )
+       lsusb
+    # Example:
+    # Bus 001 Device 016: ID 1a86:7523 QinHeng Electronics CH340 serial converter
+    # 1a86 <- vendor 
+    # 7523 <- product
+    # Attach device to tty port
+        sudo modprobe usbserial vendor=0x1a86 product=0x7523  
+    # Check if device is attached to tty port
+        sudo dmesg | grep -i tty
+        # Sample line: 
+        # [57.776196] usb 1-3: cp210x converter now attached to ttyUSB0
+    # Install serial terminal
+        yay -S cutecom
+    # Start cutecom
+        sudo cutecom
+
+# Install VSCode 
+    # Get Snap package manager
+        sudo pacman -S snapd
+    # Enable Snap socket
+        sudo systemctl enable --now snapd.socket
+    # Create symbolic link for /snap    
+        sudo ln -s /var/lib/snapd/snap /snap
+    # Install VSCode with Snap    
+        sudo snap install code --classic
+          
+# Setup VSCode for AVR-GCC
+    # Install avr-gcc & libraries
+        sudo pacman -S avr-gcc avr-libc
+    # Install C++ and C++ InstelliSense Plugins for VSCode
+    # Press F1 and type "C/C++ Edit Configuration (UI)"
+    # Set compiler path
+        /usr/bin/avr-gcc
+    # Set IntelliSense mode
+        linux gcc-x86
+    # Edit Defines - add MCU model name 
+        __AVR_ATtiny2313__
+    # Makefile content in project folder
+        upload: main.hex
+            sudo avrdude -v -p t2313 -c stk500 -P /dev/ttyUSB0 -U main.hex
+        main.hex: main.c
+            avr-gcc main.c -mmcu=attiny2313 -DF_CPU=1600000UL -o main.hex
+    # Open new terminal in VSCode and type "make"
+        
+# Restart KDE
+    kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell
+    
+# Install macOS KVM
+    https://github.com/kholia/OSX-KVM
+
+    
+# PCI passthrough for macOS KVM
+    https://gist.github.com/vwxyzjn/ab94cb5d759360f252b0441bf8d998b4
+    # Footnote:
+        Grub setup f*cks up my audio settings
+    https://www.youtube.com/watch?v=_JTEsQufSx4
