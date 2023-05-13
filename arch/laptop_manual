@@ -45,7 +45,7 @@ Arch Linux Installation Guide:
     
 5. Install the system
 	pacstrap /mnt base base-devel linux linux-firmware grub efibootmgr
-	pacstrap /mnt networkmanager iwd wireless_tools
+	pacstrap /mnt networkmanager iwd wireless_tools vi
 
 6. Generate fstab
 	genfstab -U /mnt >> /mnt/etc/fstab
@@ -54,7 +54,6 @@ Arch Linux Installation Guide:
 	arch-chroot /mnt /bin/bash	
 	
 8. Install & Configure Boot Loader
-	pacman -S grub efibootmgr
 	grub-install /dev/nvme0n1
 	grub-mkconfig -o /boot/grub/grub.cfg
 	
