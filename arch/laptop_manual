@@ -24,7 +24,10 @@ Arch Linux Installation Guide:
     a) List available partitions and note target <DISK> name
         lsblk
         
-    b) Open cfdisk 
+    b) Create partitions
+    	Delete all partitions 
+		gdisk /dev/nvme0n1
+		x z y y 
         cfdisk /dev/<DISK>
         - Create a new 512 Mb partition
         - Create another, larger partition 
