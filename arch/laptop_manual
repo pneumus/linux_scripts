@@ -59,6 +59,7 @@ Arch Linux Installation Guide:
 	
 9. Configure Wireless Tools
 	systemctl enable NetworkManager
+	systemctl enable iwd.service
 	groupadd netdev
 	gpasswd -a root netdev
 	
