@@ -28,7 +28,8 @@ Arch Linux Installation Guide:
     	Delete all partitions 
 		gdisk /dev/nvme0n1
 		x z y y 
-        cfdisk /dev/<DISK>
+        cfdisk /dev/nvme0n1
+	- Select 'GPT'
         - Create a new 512 Mb partition
         - Create another, larger partition 
         - Write changes & quit
