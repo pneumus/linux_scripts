@@ -71,7 +71,7 @@ Arch Linux Installation Guide:
 	vi /etc/locale.conf
 	LANG=EN-US.UTF-8
 	vi /etc/vconsole.conf
-	KEYMAP=us
+	KEYMAP=hu
 		
 12. Set hostname
 	vi /etc/hostname and edit it 
