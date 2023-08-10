@@ -21,3 +21,10 @@ LC_ALL=C lscpu | grep Virtualization
 ```sh
 sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
 ```
+
+&nbsp;&nbsp;
+##### Enable virtualization daemon
+```sh
+sudo systemctl enable --now libvirtd.service
+```
+###### *Note: The --now switch will enable and start immediately*
