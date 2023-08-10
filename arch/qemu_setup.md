@@ -5,7 +5,7 @@
 ##### Check if your Hardware supports Virtualization   
 
 ```sh
-LC_ALL=C lscpu | grep Virtualization
+__LC_ALL=C lscpu | grep Virtualization__
 # Note: The correct response is VT-x for Intel and AMD-V for AMD
 ```
 
