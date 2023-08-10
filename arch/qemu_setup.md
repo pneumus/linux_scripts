@@ -4,6 +4,6 @@
  
 
 
-##### 1. Check if your Hardware supports Virtualization   
+##### Check if your Hardware supports Virtualization   
 
     LC_ALL=C lscpu | grep Virtualization
