@@ -50,4 +50,7 @@ virt-manager
   - Tick "Autoconnect"
   - Click "Connect"
 
+&nbsp;&nbsp;
+##### Install and Setup different Operating Systems
+[Windows 10](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu_windows)
 
