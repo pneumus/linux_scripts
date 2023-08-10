@@ -37,8 +37,17 @@ reboot
 ```
 
 &nbsp;&nbsp;
-##### Test Virtualization Manager
+##### Open the Virtual Machine Manager
 ```sh
 virt-manager
 ```
-###### *Alternatively you can also start Virtual Machine Manager from the Start Menu aka "Launcher"*
+###### *Note: You can also start 'Virtual Machine Manager' from the Launcher aka "Start Menu"*
+
+&nbsp;&nbsp;
+##### Configure Connection in Virtual Machine Manager
+  - Select: File -> Add Connection
+  - For Hypervisor, select: "QEMU/KVM user session"
+  - Tick "Autoconnect"
+  - Click "Connect"
+
+
