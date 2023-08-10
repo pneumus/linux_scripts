@@ -34,3 +34,10 @@ sudo systemctl enable --now libvirtd.service
 ```sh
 sudo usermod -a -G libvirt-qemu "$USER"
 ```
+
+&nbsp;&nbsp;
+##### Test Virtualization Manager
+```sh
+virt-manager
+```
+###### *Alternatively you can also start Virtual Machine Manager from the Start Menu aka "Launcher"*
