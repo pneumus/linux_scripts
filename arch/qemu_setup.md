@@ -23,8 +23,14 @@ sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nf
 ```
 
 &nbsp;&nbsp;
-##### Enable Virtualization Daemon
+##### Enable Virtualization Service
 ```sh
 sudo systemctl enable --now libvirtd.service
 ```
-###### *Note: The --now switch will enable and start immediately*
+###### *Note: The --now switch will enable and start the service immediately*
+
+&nbsp;&nbsp;
+##### Add your user to the QEMU group
+```sh
+sudo usermod -a -G libvirt-qemu "$USER"
+```
