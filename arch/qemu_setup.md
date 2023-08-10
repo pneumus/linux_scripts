@@ -9,7 +9,7 @@ LC_ALL=C lscpu | grep Virtualization
 ```
 ###### *Note: The correct response is VT-x for Intel and AMD-V for AMD*
 &nbsp;&nbsp;
-##### Enable Virtualization in BIOS ( UEFI ) - if not enabled
+##### Enable Virtualization in BIOS ( UEFI )
   - Print your motherboard details
     ```sh
     cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}
