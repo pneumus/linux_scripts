@@ -41,7 +41,7 @@ reboot
 ```sh
 virt-manager
 ```
-###### *Note: You can also start 'Virtual Machine Manager' from the Launcher aka "Start Menu"*
+###### *Note: You can also start 'Virtual Machine Manager' from your Launcher aka 'Start Menu'*
 
 &nbsp;&nbsp;
 ##### Configure Connection in Virtual Machine Manager
