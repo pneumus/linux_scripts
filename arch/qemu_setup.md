@@ -17,13 +17,13 @@ LC_ALL=C lscpu | grep Virtualization
   - Based on your motherboard details, google how to enable Virtualization in BIOS ( UEFI ) & Enable it
 
 &nbsp;&nbsp;
-##### Install prerequisites
+##### Install Prerequisites
 ```sh
 sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
 ```
 
 &nbsp;&nbsp;
-##### Enable virtualization daemon
+##### Enable Virtualization Daemon
 ```sh
 sudo systemctl enable --now libvirtd.service
 ```
