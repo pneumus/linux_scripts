@@ -8,3 +8,9 @@
 LC_ALL=C lscpu | grep Virtualization
 # Note: The correct response is VT-x for Intel and AMD-V for AMD
 ```
+    
+##### Install prerequisities
+
+```sh
+sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
+```
