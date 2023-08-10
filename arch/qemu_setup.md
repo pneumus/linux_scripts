@@ -8,9 +8,15 @@
 LC_ALL=C lscpu | grep Virtualization
 # Note: The correct response is VT-x for Intel and AMD-V for AMD
 ```
-    
-##### Install prerequisities
 
+##### Enable Virtualization in BIOS ( UEFI )
+  - Print your motherboard details
+    ```sh
+    cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}
+    ```   
+  - Google how to enable virtualization in BIOS ( UEFI ) & Enable it
+
+##### Install prerequisites
 ```sh
 sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
 ```
