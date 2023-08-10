@@ -1,8 +1,6 @@
-Enable Virtualization in BIOS ( UEFI )
-  - Print your motherboard details:
-    <br>cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}
-  - Google how to enable virtualization in BIOS ( UEFI ) & Enable it
+# QEMU Setup for Arch Linux
 
-Installing Necessary Packages
+##### Check if your Hardware supports Virtualization   
 
-  sudo pacman -Sy 
+    LC_ALL=C lscpu | grep Virtualization
+
