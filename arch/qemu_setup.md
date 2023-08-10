@@ -7,4 +7,4 @@
 ##### Check if your Hardware supports Virtualization   
 
     LC_ALL=C lscpu | grep Virtualization
-    > Note: The correct response is VT-x for Intel and AMD-V for AMD
+    Note: The correct response is VT-x for Intel and AMD-V for AMD
