@@ -51,6 +51,10 @@ virt-manager
 ###### *Note: You can also start 'Virtual Machine Manager' from your Launcher aka 'Start Menu'*
 
 &nbsp;&nbsp;
+##### Virtual Machine Manager
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/f6fe9cab-2f94-4391-b207-73de690b90eb" width="25%" height="25%" />
+
+&nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
 &emsp;[Windows 10](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/windows_setup.md)
 
