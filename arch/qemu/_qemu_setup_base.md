@@ -59,5 +59,5 @@ virt-manager
 
 &nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
-&emsp;[Windows 10](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu_windows.md)
+&emsp;[Windows 10](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/windows_setup.md)
 
