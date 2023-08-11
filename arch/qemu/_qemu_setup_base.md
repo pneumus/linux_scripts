@@ -55,6 +55,11 @@ virt-manager
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/f6fe9cab-2f94-4391-b207-73de690b90eb" width="25%" height="25%" />
 
 &nbsp;&nbsp;
+##### Add Connection
+Select: File → Add Connection
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/cdad7589-84ae-489a-b655-b95cb13578f9" width="25%" height="25%" />
+
+&nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
 &emsp;[Windows](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/windows_setup.md)
 
