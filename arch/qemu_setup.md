@@ -25,7 +25,8 @@ sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nf
 
 &nbsp;&nbsp;
 ##### Install the polkit for your Desktop Environment
-&emsp;ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit)
+&emsp;Check the ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit) to install the necessary package
+###### *Note: The package is called __polkit-kde-agent__ for KDE*
 
 &nbsp;&nbsp;
 ##### Enable Virtualization Service
