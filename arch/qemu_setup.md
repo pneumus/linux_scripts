@@ -22,7 +22,6 @@ LC_ALL=C lscpu | grep Virtualization
 sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
 ```
 
-
 &nbsp;&nbsp;
 ##### Install the polkit for your Desktop Environment
 &emsp;Check the ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit) to install the necessary package
@@ -42,6 +41,7 @@ sudo usermod -a -G libvirt-qemu "$USER"
 sudo usermod -a -G libvirt "$USER"
 reboot
 ```
+###### *Note: This will alow you to open the Virtual Machine Manager without password prompt*
 
 &nbsp;&nbsp;
 ##### Open the Virtual Machine Manager
