@@ -36,9 +36,10 @@ sudo systemctl enable --now libvirtd.service
 ###### *Note: The --now switch will enable and start the service immediately*
 
 &nbsp;&nbsp;
-##### Add your user to the QEMU group and reboot the PC
+##### Add your user to the QEMU related groups and reboot the PC
 ```sh
 sudo usermod -a -G libvirt-qemu "$USER"
+sudo usermod -a -G libvirt "$USER"
 reboot
 ```
 
