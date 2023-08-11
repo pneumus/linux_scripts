@@ -52,7 +52,7 @@ virt-manager
 
 &nbsp;&nbsp;
 ##### Configure Connection in Virtual Machine Manager
-  - Select: File -> Add Connection
+  - Select: File → Add Connection
   - For Hypervisor, select: "QEMU/KVM user session"
   - Tick "Autoconnect"
   - Click "Connect"
