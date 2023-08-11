@@ -10,7 +10,7 @@ LC_ALL=C lscpu | grep Virtualization
 
 &nbsp;&nbsp;
 ##### Enable Virtualization in BIOS ( UEFI )
-&emsp;- Print your motherboard details
+- Print your motherboard details
     ```sh
   cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}
     ```   
