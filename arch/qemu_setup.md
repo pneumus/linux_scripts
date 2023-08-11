@@ -22,6 +22,11 @@ LC_ALL=C lscpu | grep Virtualization
 sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
 ```
 
+
+&nbsp;&nbsp;
+##### Install the polkit for your Desktop Environment
+&emsp;ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit)
+
 &nbsp;&nbsp;
 ##### Enable Virtualization Service
 ```sh
