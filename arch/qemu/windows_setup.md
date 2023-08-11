@@ -7,4 +7,4 @@
 
 &nbsp;&nbsp;
 ##### Open Virtual Machine Manager
-<img src="https://github.com/sonus89/linux_scripts/assets/10185202/7b1ebed0-3dae-44ae-9dc7-841cc542c7d8" width="40%" height="40%" />
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/7b1ebed0-3dae-44ae-9dc7-841cc542c7d8" width="25%" height="25%" />
