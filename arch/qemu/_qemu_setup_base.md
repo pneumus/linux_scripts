@@ -51,13 +51,6 @@ virt-manager
 ###### *Note: You can also start 'Virtual Machine Manager' from your Launcher aka 'Start Menu'*
 
 &nbsp;&nbsp;
-##### Configure Connection in Virtual Machine Manager
-  - Select: File → Add Connection
-  - For Hypervisor, select: "QEMU/KVM user session"
-  - Tick "Autoconnect"
-  - Click "Connect"
-
-&nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
 &emsp;[Windows 10](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/windows_setup.md)
 
