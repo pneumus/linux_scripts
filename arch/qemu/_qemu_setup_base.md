@@ -57,7 +57,7 @@ virt-manager
 &nbsp;&nbsp;
 ##### Add Connection
 Select: File → Add Connection
-<img src="https://github.com/sonus89/linux_scripts/assets/10185202/cdad7589-84ae-489a-b655-b95cb13578f9" width="25%" height="25%" />
+&nbsp;<img src="https://github.com/sonus89/linux_scripts/assets/10185202/cdad7589-84ae-489a-b655-b95cb13578f9" width="25%" height="25%" />
 
 &nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
