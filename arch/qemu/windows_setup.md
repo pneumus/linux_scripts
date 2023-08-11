@@ -1,4 +1,4 @@
-# Install & Configure Windows 10 with QEMU
+# Install & Configure Windows with QEMU
 
 &nbsp;&nbsp;
 ##### Download the Windows ISO file
