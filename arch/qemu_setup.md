@@ -3,15 +3,15 @@
 
 &nbsp;&nbsp;
 ##### Check if your Hardware supports Virtualization   
-
 ```sh
 LC_ALL=C lscpu | grep Virtualization
 ```
 ###### *Note: The correct response is VT-x for Intel and AMD-V for AMD*
+
 &nbsp;&nbsp;
 ##### Enable Virtualization in BIOS ( UEFI )
 &emsp;- Print your motherboard details
-&emsp;```sh
+&emsp;&nbsp;```sh
     cat /sys/devices/virtual/dmi/id/board_{vendor,name,version}
     ```   
 &emsp;- Based on the details, google how to enable Virtualization in BIOS ( UEFI ) and enable it
