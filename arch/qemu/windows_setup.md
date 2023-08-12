@@ -21,4 +21,9 @@
 ##### Browse the ISO file and click Forward
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/8fd5ff2e-a510-4030-ab98-cd005043d042" width="25%" height="25%" />
 
+&nbsp;&nbsp;
+##### Click "yes" to grant search permissions
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/7a77fa1b-faad-4379-b1ba-0c96a1cbe33a" width="25%" height="25%" />
+
+
 
