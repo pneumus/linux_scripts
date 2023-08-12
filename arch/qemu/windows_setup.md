@@ -29,6 +29,6 @@
 ##### Choose Memory Size and CPU Count
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/ce5124f6-7a02-4060-ad4e-865bc1ceac57" width="25%" height="25%" />
 
-###### *Note: The Recommended Amount of Memory for Win98:512Mb / Win7:2Gb / Win10:4Gb / Win11:8Gb*
+###### *Note: The Recommended Amount of Memory for Win98 or XP:512Mb / Win7:2Gb / Win10:4Gb / Win11:8Gb*
 
 
