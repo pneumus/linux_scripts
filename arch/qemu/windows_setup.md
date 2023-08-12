@@ -35,6 +35,10 @@
 ##### Select Disk Image size and click Forward
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/e142e168-b998-43f1-8b9a-5374627f13d4" width="25%" height="25%" />
 
+&nbsp;&nbsp;
+##### Click Finish
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/ac1c7623-1ad5-4ab8-8d44-165fa43ae10c" width="25%" height="25%" />
+
 
 
 
