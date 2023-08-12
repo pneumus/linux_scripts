@@ -17,4 +17,8 @@
 ##### Select: Local install media and click Forward
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/caab6eb9-33ba-4111-9424-9f1c1809063d" width="25%" height="25%" />
 
+&nbsp;&nbsp;
+##### Browse the ISO file and click Forward
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/8fd5ff2e-a510-4030-ab98-cd005043d042" width="25%" height="25%" />
+
 
