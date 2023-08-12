@@ -60,7 +60,7 @@ virt-manager
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/8ee330a4-eeba-43fb-812b-b2224df1dd12" width="25%" height="25%" />
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/01b5fa58-3f9f-469b-afde-d690ac6414c0" width="25%" height="25%" />
 
-&nbsp;Select: File → Add Connection&ensp;&ensp;&ensp;Choose: QEMU/KVM, click Connect
+&nbsp;Select: File → Add Connection&ensp;&ensp;&ensp;&ensp;Choose: QEMU/KVM, click Connect
 
 &nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
