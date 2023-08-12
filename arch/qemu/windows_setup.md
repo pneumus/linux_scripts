@@ -39,7 +39,9 @@
 ##### Click Finish
 <img src="https://github.com/sonus89/linux_scripts/assets/10185202/ac1c7623-1ad5-4ab8-8d44-165fa43ae10c" width="25%" height="25%" />
 
-
+&nbsp;&nbsp;
+##### Do the Installation Process
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/4a73663e-7dde-425f-b9fd-92e12b271028" width="25%" height="25%" />
 
 
 
