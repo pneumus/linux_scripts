@@ -31,4 +31,11 @@
 
 ###### *Note: The Recommended Amount of Memory for Win98 or XP:512Mb / Win7:2Gb / Win10:4Gb / Win11:8Gb*
 
+&nbsp;&nbsp;
+##### Select Disk Image size and click Forward
+<img src="https://github.com/sonus89/linux_scripts/assets/10185202/e142e168-b998-43f1-8b9a-5374627f13d4" width="25%" height="25%" />
+
+
+
+
 
