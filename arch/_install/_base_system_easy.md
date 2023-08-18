@@ -23,10 +23,6 @@ Setup Wifi connection
 - Connect to a specific <SSID>
 	
  		iwctl station <INTERFACE> connect <SSID>
-      
-Update the system
-	
-		pacman -Sy
     
 Erase the disk partitions
 	
