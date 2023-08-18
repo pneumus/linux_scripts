@@ -1,30 +1,38 @@
 Arch Linux Installation Guide:
 
-1.	Set keyboard layout to hungarian
+Set keyboard layout to hungarian
 		loadkeys hu
     
-2.	Setup Wifi connection
-		a) List your network <INTERFACE> names
-			iwconfig
-		
-		b) Turn on your wifi adapter 
-        		ip link set <INTERFACE> up
-			
-		c) Scan & List all nearby network <SSID>
-        		iwctl station <INTERFACE> scan
-        		iwctl station <INTERFACE> get-networks
-	
-		d) Connect to a specific <SSID>
-			iwctl station <INTERFACE> connect <SSID>
-        
-3. Sync the Clock
-	timedatectl set-ntp true        
+Setup Wifi connection
 
-4. Partitioning
-    a) List available partitions and note target <DISK> name
-        lsblk
+- List your network <INTERFACE> names
+
+		iwconfig
+
+- Turn on your wifi adapter 
+
+		ip link set <INTERFACE> up
+	
+- Scan & List all nearby network <SSID>
+
+		iwctl station <INTERFACE> scan
+		iwctl station <INTERFACE> get-networks
+
+- Connect to a specific <SSID>
+
+		iwctl station <INTERFACE> connect <SSID>
+
+- Sync the Clock
+
+		timedatectl set-ntp true        
+
+Partitioning
+
+- List available partitions and note target <DISK> name
+
+          lsblk
         
-    b) Create partitions
+- Create partitions
     	Delete all partitions 
 		gdisk /dev/nvme0n1
 		x z y y 
