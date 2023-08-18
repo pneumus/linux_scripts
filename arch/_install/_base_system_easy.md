@@ -15,12 +15,12 @@ Setup Wifi connection
 	
   		ip link set <INTERFACE> up
 		
-- Scan & List all nearby network <SSID>
+- Scan & List all nearby network SSID
 	
   		iwctl station <INTERFACE> scan
 		iwctl station <INTERFACE> get-networks
 	
-- Connect to a specific <SSID>
+- Connect to a specific SSID
 	
  		iwctl station <INTERFACE> connect <SSID>
     
