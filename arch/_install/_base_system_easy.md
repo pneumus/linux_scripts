@@ -39,7 +39,6 @@ Erase the disk partitions
 Install Arch Linux
 
 		archinstall
-		Note: If not present, install the script by:
-		pacman -Sy archinstall
-
+###### *Note: Note: If not present, install the script by: pacman -Sy archinstall*
+		
     
