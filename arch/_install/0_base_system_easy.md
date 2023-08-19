@@ -41,21 +41,21 @@ Install Arch Linux
 
 Archinstall language &ensp; Should be your language &nbsp;  
 Mirrors &ensp; Should be your country &nbsp;  
-Locales &ensp; Change Keyboard Layout and Locales &nbsp;
-Disk Configuration &ensp; The "best effort default partition layout" will wipe your hard disk &nbsp;
-Disk encryption &ensp; This is Optional &nbsp;
-Bootloader &ensp; Either GRUB or the Default one &nbsp;
-Swap &ensp; If you don't have less than 2Gb Memory and you won't use hibernation, disable it &nbsp;
-Hostname &ensp; The name of your Machine &nbsp;
-Root Password &ensp; This is important &nbsp;
-User Account &ensp; Add a user and put em into the sudoers group &nbsp;
-Profile &ensp; Select "Minimal" ( without graphical interface ) &nbsp;
-Audio &ensp; Pipewire is better than PulseAudio &nbsp;
-Kernels &ensp; Linux &nbsp;
-Additional Packages &ensp; None &nbsp; 
-Network Configuration &ensp; Use NetworkManager &nbsp;
-Timezone &ensp; Your Time Zone &nbsp;
-Automatic time sync (NTP) &ensp; True &nbsp; 
-&nbsp;
+Locales &ensp; Change Keyboard Layout and Locales &nbsp;  
+Disk Configuration &ensp; The "best effort default partition layout" will wipe your hard disk &nbsp;  
+Disk encryption &ensp; This is Optional &nbsp;  
+Bootloader &ensp; Either GRUB or the Default one &nbsp;  
+Swap &ensp; If you don't have less than 2Gb Memory and you won't use hibernation, disable it &nbsp;  
+Hostname &ensp; The name of your Machine &nbsp;  
+Root Password &ensp; This is important &nbsp;  
+User Account &ensp; Add a user and put em into the sudoers group &nbsp;  
+Profile &ensp; Select "Minimal" ( without graphical interface ) &nbsp;  
+Audio &ensp; Pipewire is better than PulseAudio &nbsp;  
+Kernels &ensp; Linux &nbsp;  
+Additional Packages &ensp; None &nbsp;   
+Network Configuration &ensp; Use NetworkManager &nbsp;  
+Timezone &ensp; Your Time Zone &nbsp;  
+Automatic time sync (NTP) &ensp; True &nbsp;   
+&nbsp;  
 And select "Install"
     
