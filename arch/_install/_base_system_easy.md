@@ -1,5 +1,5 @@
 
-# Arch Linux Installation Guide
+# Arch Linux Installation Guide - Easy Way
 
 Set keyboard layout to hungarian
 
