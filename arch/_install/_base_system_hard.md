@@ -1,26 +1,27 @@
 # Arch Linux Installation Guide - Hard Way
 
 Set keyboard layout to hungarian
+
 		loadkeys hu
     
 Setup Wifi connection
 
-- List your network <INTERFACE> names
+- List your network INTERFACE names
 
 		iwconfig
-
-- Turn on your wifi adapter 
-
-		ip link set <INTERFACE> up
 	
-- Scan & List all nearby network <SSID>
-
-		iwctl station <INTERFACE> scan
+- Turn on your wifi adapter 
+	
+  		ip link set <INTERFACE> up
+		
+- Scan & List all nearby network SSID
+	
+  		iwctl station <INTERFACE> scan
 		iwctl station <INTERFACE> get-networks
-
-- Connect to a specific <SSID>
-
-		iwctl station <INTERFACE> connect <SSID>
+	
+- Connect to a specific SSID
+	
+ 		iwctl station <INTERFACE> connect <SSID>
 
 - Sync the Clock
 
