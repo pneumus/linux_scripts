@@ -39,8 +39,8 @@ Install Arch Linux
 
 ![image](https://github.com/sonus89/linux_scripts/assets/10185202/d0f78186-be6f-48a2-a60c-072cd518d2d4)
 
-Archinstall language &ensp; Should be your language &nbsp;
-Mirrors &ensp; Should be your country &nbsp;
+Archinstall language &ensp; Should be your language &nbsp;  
+Mirrors &ensp; Should be your country &nbsp;  
 Locales &ensp; Change Keyboard Layout and Locales &nbsp;
 Disk Configuration &ensp; The "best effort default partition layout" will wipe your hard disk &nbsp;
 Disk encryption &ensp; This is Optional &nbsp;
