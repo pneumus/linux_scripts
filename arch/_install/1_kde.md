@@ -8,7 +8,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent 
+    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent usbutils
 
 Setup Bluetooth
 
