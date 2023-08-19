@@ -8,7 +8,12 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent
+    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent 
+
+Setup Bluetooth
+
+    pacman -S bluez bluez-utils bluedevil
+    systemctl enable bluetooth.service
 
 Disable KDE Wallet ( Optional )
 
