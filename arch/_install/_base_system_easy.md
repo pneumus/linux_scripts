@@ -1,4 +1,4 @@
-![image](https://github.com/sonus89/linux_scripts/assets/10185202/ceb711b0-d548-4386-b7f5-b830d202c855)
+![image](https://github.com/sonus89/linux_scripts/assets/10185202/f2004b1a-1ca2-4168-be9a-c4510a05e959)
 # Arch Linux Installation Guide - Easy Way
 
 Set keyboard layout to hungarian
@@ -40,6 +40,7 @@ Install Arch Linux
 
 ![image](https://github.com/sonus89/linux_scripts/assets/10185202/bc868553-21da-4314-8dd8-11c0dd779d95)
 
+![image](https://github.com/sonus89/linux_scripts/assets/10185202/d0f78186-be6f-48a2-a60c-072cd518d2d4)
 
-		
+
     
