@@ -11,7 +11,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle firefox plasma-nm plasma-pa ktorrent usbutils git base-devel openssh gwenview ark gedit
+    pacman -S dolphin konsole spectacle firefox plasma-nm plasma-pa ktorrent usbutils git base-devel openssh gwenview ark gedit wget
 
 Setup Bluetooth
 
