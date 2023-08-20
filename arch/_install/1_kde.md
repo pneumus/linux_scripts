@@ -1,4 +1,4 @@
-Install the bare minimum KDE
+Install KDE ( Bare Minimum )
 
     pacman -S xorg plasma-desktop plasma-wayland-session sddm
   
