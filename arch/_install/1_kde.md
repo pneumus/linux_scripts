@@ -14,7 +14,7 @@ Install very important packages
 Setup Bluetooth
 
     pacman -S bluez bluez-utils bluedevil
-    systemctl enable bluetooth.service
+    systemctl enable bluetooth
 
 Disable KDE Wallet ( Optional )
 
