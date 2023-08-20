@@ -1,8 +1,0 @@
-# Check bluetooth status
-systemctl status bluetooth
-
-# Enable bluetooth if disabled
-systemctl start bluetooth
-
-# Start bluetoothctl terminal
-bluetoothctl
