@@ -8,7 +8,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent usbutils git base-devel openssh gwenview
+    pacman -S plasma-nm plasma-pa konsole spectacle firefox ktorrent usbutils git base-devel openssh gwenview ark
 
 Setup Bluetooth
 
