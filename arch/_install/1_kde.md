@@ -1,3 +1,5 @@
+# KDE and Basic Software Installation Guide
+
 Install KDE ( Bare Minimum )
 
     pacman -S xorg plasma-desktop plasma-wayland-session sddm
