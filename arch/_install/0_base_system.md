@@ -1,5 +1,5 @@
 
-# Arch Linux Installation Guide - Easy Way
+# Arch Linux Installation Guide
 
 Download the [Arch Linux ISO](https://archlinux.org/download/) and create a Bootable Pendrive 
 
