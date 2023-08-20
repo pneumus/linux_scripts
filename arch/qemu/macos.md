@@ -1,4 +1,4 @@
-# Clonde the git repository
+# Clone the git repository
 git clone https://github.com/kholia/OSX-KVM.git
 
 # Change directory to OSX-KVM
