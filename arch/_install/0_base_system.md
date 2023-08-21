@@ -9,6 +9,7 @@ Set keyboard layout to hungarian
     
 <details>
   <summary>Setup Wifi Connection</summary>
+	
 - List your network INTERFACE names
 
 		iwconfig
