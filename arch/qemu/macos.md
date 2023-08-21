@@ -1,21 +1,30 @@
-# Clone the git repository
-git clone https://github.com/kholia/OSX-KVM.git
+# MacOS Installation with QEMU
 
-# Change directory to OSX-KVM
-cd OSX-KVM/
+Clone the git repository
 
-# Fetch OSX
-./fetch-macOS-v2.py
+    git clone https://github.com/kholia/OSX-KVM.git
 
-# Convert the image
-qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+Change directory to OSX-KVM
 
-# Create virtual machine - with desired size
-qemu-img create -f qcow2 mac_hdd_ng.img 30G
+    cd OSX-KVM/
 
-# Edit virtual machine preferences
-vi OpenCore-Boot.sh 
+Fetch OSX
 
-# Run script
-./OpenCore-Boot.sh 
+    ./fetch-macOS-v2.py
+
+Convert the image
+
+    qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+
+Create virtual machine - with desired size
+
+    qemu-img create -f qcow2 mac_hdd_ng.img 30G
+
+Edit virtual machine preferences
+
+    vi OpenCore-Boot.sh 
+
+Run script
+
+    ./OpenCore-Boot.sh 
 
