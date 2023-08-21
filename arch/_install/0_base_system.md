@@ -64,4 +64,8 @@ Timezone &ensp; Your Time Zone &nbsp;
 Automatic time sync (NTP) &ensp; True &nbsp;   
 &nbsp;  
 And select "Install"
+
+After a reboot update your system:
+
+	pacman -Syu
     
