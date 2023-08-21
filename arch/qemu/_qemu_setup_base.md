@@ -65,5 +65,6 @@ virt-manager
 &nbsp;&nbsp;
 ##### Install and Setup different Operating Systems
 &emsp;[Windows](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/windows_setup.md)
+&emsp;[MacOS](https://github.com/sonus89/linux_scripts/blob/master/arch/qemu/macos.md)
 
 
