@@ -21,3 +21,4 @@ Setup Bluetooth
 Disable KDE Wallet ( Optional )
 
     rm -rf  ~/.config/kwalletrc && printf "[Wallet]\nEnabled=false" > ~/.config/kwalletrc
+    reboot
