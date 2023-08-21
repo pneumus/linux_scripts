@@ -7,25 +7,8 @@ Set keyboard layout to hungarian
 
 		loadkeys hu
     
-Setup Wifi connection
-
 <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
+  <summary>Setup Wifi Connection</summary>
 - List your network INTERFACE names
 
 		iwconfig
@@ -42,6 +25,9 @@ Setup Wifi connection
 - Connect to a specific SSID
 	
  		iwctl station <INTERFACE> connect <SSID>
+
+  
+</details>
 
 - Check if you really have Internet
 
