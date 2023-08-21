@@ -25,6 +25,10 @@ Setup Wifi connection
 - Connect to a specific SSID
 	
  		iwctl station <INTERFACE> connect <SSID>
+
+- Check if you really have Internet
+
+    		ping gnu.org
     
 Erase the disk partitions
 	
