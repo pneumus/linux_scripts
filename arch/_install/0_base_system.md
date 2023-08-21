@@ -45,23 +45,23 @@ Install Arch Linux
 
 ![image](https://github.com/sonus89/linux_scripts/assets/10185202/d0f78186-be6f-48a2-a60c-072cd518d2d4)
 
-Archinstall language &ensp;&ensp;&ensp;&ensp; Should be your language &nbsp;  
-Mirrors &ensp;&ensp;&ensp;&ensp; Should be your country &nbsp;  
-Locales &ensp; Change Keyboard Layout and Locales &nbsp;  
-Disk Configuration &ensp; The "best effort default partition layout" will wipe your hard disk &nbsp;  
-Disk encryption &ensp; This is Optional &nbsp;  
-Bootloader &ensp; Either GRUB or the Default one &nbsp;  
-Swap &ensp; If you don't have less than 2Gb Memory and you won't use hibernation, disable it &nbsp;  
-Hostname &ensp; The name of your Machine &nbsp;  
-Root Password &ensp; This is important &nbsp;  
-User Account &ensp; Add a user and put em into the sudoers group &nbsp;  
-Profile &ensp; Select "Minimal" ( without graphical interface ) &nbsp;  
-Audio &ensp; Pipewire is better than PulseAudio &nbsp;  
-Kernels &ensp; Linux &nbsp;  
-Additional Packages &ensp; None &nbsp;   
-Network Configuration &ensp; Use NetworkManager &nbsp;  
-Timezone &ensp; Your Time Zone &nbsp;  
-Automatic time sync (NTP) &ensp; True &nbsp;   
+Archinstall language &ensp;-&ensp; Should be your language &nbsp;  
+Mirrors &ensp;-&ensp; Should be your country &nbsp;  
+Locales &ensp;-&ensp; Change Keyboard Layout and Locales &nbsp;  
+Disk Configuration &ensp;-&ensp; The "best effort default partition layout" will wipe your hard disk &nbsp;  
+Disk encryption &ensp;-&ensp; This is Optional &nbsp;  
+Bootloader &ensp;-&ensp; Either GRUB or the Default one &nbsp;  
+Swap &ensp;-&ensp; If you don't have less than 2Gb Memory and you won't use hibernation, disable it &nbsp;  
+Hostname &ensp;-&ensp; The name of your Machine &nbsp;  
+Root Password &ensp;-&ensp; This is important &nbsp;  
+User Account &ensp;-&ensp; Add a user and put em into the sudoers group &nbsp;  
+Profile &ensp;-&ensp; Select "Minimal" ( without graphical interface ) &nbsp;  
+Audio &ensp;-&ensp; Pipewire is better than PulseAudio &nbsp;  
+Kernels &ensp;-&ensp; Linux &nbsp;  
+Additional Packages &ensp;-&ensp; None &nbsp;   
+Network Configuration &ensp;-&ensp; Use NetworkManager &nbsp;  
+Timezone &ensp;-&ensp; Your Time Zone &nbsp;  
+Automatic time sync (NTP) &ensp;-&ensp; True &nbsp;   
 &nbsp;  
 And select "Install"
 
