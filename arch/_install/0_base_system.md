@@ -30,7 +30,7 @@ Set keyboard layout to hungarian
   
 </details>
 
-&mbsp;
+&nbsp;
 - Check if you really have Internet
 
     		ping gnu.org
