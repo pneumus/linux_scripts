@@ -18,6 +18,7 @@ do
   rc=$?
   if [[ $rc -eq 0 ]] ; then                
     echo "Internet is fine"
+    break
   else
     echo "You are offline. Try again!"
   fi
