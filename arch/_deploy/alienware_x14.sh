@@ -4,3 +4,12 @@
 
 # Load the Hungarian Keyboard Layout
 loadkeys hu
+
+# Request Wifi SSID and Password
+echo "Wifi SSID:"
+read ssid
+echo "Wifi Password:"
+read wifi_password
+iwctl --passphrase $wifi_password station wlan0 connect $ssid
+
+
