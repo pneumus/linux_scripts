@@ -30,10 +30,9 @@ Set keyboard layout to hungarian
   
 </details>
 
-&nbsp;
 Check if you really have Internet
 
-    		ping gnu.org
+    	ping gnu.org
     
 Erase the disk partitions
 	
