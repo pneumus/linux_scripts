@@ -31,7 +31,7 @@ Set keyboard layout to hungarian
 </details>
 
 &nbsp;
-- Check if you really have Internet
+Check if you really have Internet
 
     		ping gnu.org
     
