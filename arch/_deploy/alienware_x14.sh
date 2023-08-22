@@ -7,7 +7,7 @@ loadkeys hu
 
 # Request Wifi SSID and Password
 echo "Wifi SSID:"
-read ssid
+read wifi_ssid
 echo "Wifi Password:"
 read wifi_password
 iwctl --passphrase $wifi_password station wlan0 connect $ssid
