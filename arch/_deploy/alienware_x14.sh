@@ -17,7 +17,7 @@ do
   ping -c 1 gnu.org                   
   rc=$?
   if [[ $rc -eq 0 ]] ; then                
-    echo "Internet is fine"
+    echo "All fine! You are online."
     break
   else
     echo "You are offline. Try again!"
