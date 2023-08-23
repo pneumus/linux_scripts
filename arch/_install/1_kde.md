@@ -25,10 +25,8 @@ Disable KDE Wallet ( Optional )
 
 Install Franz for Messaging
 
-    Go the [Web Site](https://meetfranz.com/) and download the AppImage
-    Copy the AppImage to /usr/local/bin:
-        sudo cp Franz-5.9.2.AppImage /usr/local/bin/franz
-    Make it executable:
-        sudo chmod +x /usr/local/bin/franz
-    Execute Franz:
-        franz
+    Download the AppImage
+        https://meetfranz.com/
+    sudo cp Franz-5.9.2.AppImage /usr/local/bin/franz
+    sudo chmod +x /usr/local/bin/franz
+    
