@@ -27,6 +27,6 @@ Install Franz for Messaging
 
     Download the AppImage
         https://meetfranz.com/
-    sudo cp Franz-5.9.2.AppImage /usr/local/bin/franz
+    sudo cp Franz.AppImage /usr/local/bin/franz
     sudo chmod +x /usr/local/bin/franz
     
