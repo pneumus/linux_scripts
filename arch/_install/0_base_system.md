@@ -3,6 +3,7 @@
 
 Download the [Arch Linux ISO](https://archlinux.org/download/) and create a Bootable Pendrive 
 
+
 Set keyboard layout to hungarian
 
 	loadkeys hu
