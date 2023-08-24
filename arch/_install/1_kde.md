@@ -11,7 +11,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle firefox plasma-nm plasma-pa ktorrent gwenview ark gedit
+    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark gedit
 
 Setup Bluetooth
 
@@ -23,10 +23,16 @@ Disable KDE Wallet ( Optional )
     rm -rf  ~/.config/kwalletrc && printf "[Wallet]\nEnabled=false" > ~/.config/kwalletrc
     reboot
 
-Install Franz for Messaging
+Install Browser 
 
-    Download the AppImage
-        https://meetfranz.com/
-    sudo cp Franz.AppImage /usr/local/bin/franz
-    sudo chmod +x /usr/local/bin/franz
+- Firefox
+
+        pacman -S firefox
     
+- Google Chrome ( or Brave )
+        
+        pacman -Syu yay
+        yay -Syu google-chrome 
+        ( yay -Syu brave )
+
+          
