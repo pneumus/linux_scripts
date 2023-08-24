@@ -39,10 +39,7 @@ Check if you really have Internet
 Erase the disk partitions
 	
 	 	gdisk /dev/nvme0n1
-		x
-		z
-		y
-		y
+		Press x, z, y and y again
 
 Install Arch Linux
 
