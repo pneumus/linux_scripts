@@ -6,11 +6,11 @@ Download the [Arch Linux ISO](https://archlinux.org/download/) and create a Boot
 
 Set keyboard layout to hungarian
 
-		loadkeys hu
+	loadkeys hu
 
 Check if you really have Internet
 
-    	ping gnu.org
+	ping gnu.org
      
 <details>
   <summary>Internet Setup ( if ping did not work )</summary>
@@ -38,12 +38,13 @@ Check if you really have Internet
     
 Erase the disk partitions
 	
-	 	gdisk /dev/nvme0n1
-		Press x, z, y and y again
+	gdisk /dev/nvme0n1
+	Press x, z, y and y again
 
 Install Arch Linux
 
-		archinstall
+	archinstall
+ 
 ###### *Note: Note: If you can't find the archinstall script you should install it by "pacman -Sy archinstall"*
 
 ![image](https://github.com/sonus89/linux_scripts/assets/10185202/d0f78186-be6f-48a2-a60c-072cd518d2d4)
@@ -70,7 +71,7 @@ And select "Install"
 
 After a reboot update your system:
 
-		pacman -Syu
+	pacman -Syu
     
 To install any desktop environment follow these tutorials:
 
