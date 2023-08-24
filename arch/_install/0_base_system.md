@@ -75,4 +75,4 @@ After a reboot update your system:
 The base system is installed.
 To install any desktop environment follow these tutorials:
 
-&nbsp;[KDE](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/1_kde.md)
+&emsp;[KDE](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/1_kde.md)
