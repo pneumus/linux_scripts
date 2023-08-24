@@ -6,7 +6,7 @@ Download the [Arch Linux ISO](https://archlinux.org/download/) and create a Boot
 
 Set keyboard layout to hungarian
 
-	loadkeys hu
+		loadkeys hu
 
 Check if you really have Internet
 
