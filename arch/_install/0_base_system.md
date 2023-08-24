@@ -70,7 +70,7 @@ And select "Install"
 
 After a reboot update your system:
 
-	pacman -Syu
+		pacman -Syu
     
 To install any desktop environment follow these tutorials:
 
