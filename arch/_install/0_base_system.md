@@ -63,7 +63,7 @@ User Account &ensp;-&ensp; Add a user and put em into the sudoers group &nbsp;
 Profile &ensp;-&ensp; Select "Minimal" ( without graphical interface ) &nbsp;  
 Audio &ensp;-&ensp; Pipewire is better than PulseAudio &nbsp;  
 Kernels &ensp;-&ensp; Linux &nbsp;  
-Additional Packages &ensp;-&ensp; None &nbsp;   
+Additional Packages &ensp;-&ensp; usbutils git base-devel openssh wget iwd wireless_tools vi &nbsp;   
 Network Configuration &ensp;-&ensp; Use NetworkManager &nbsp;  
 Timezone &ensp;-&ensp; Your Time Zone &nbsp;  
 Automatic time sync (NTP) &ensp;-&ensp; True &nbsp;   
