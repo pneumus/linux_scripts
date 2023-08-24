@@ -72,7 +72,6 @@ After a reboot update your system:
 
 	pacman -Syu
     
-The base system is installed.
 To install any desktop environment follow these tutorials:
 
 &emsp;[KDE](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/1_kde.md)
