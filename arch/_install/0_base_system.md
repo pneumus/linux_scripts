@@ -13,7 +13,7 @@ Check if you really have Internet
     	ping gnu.org
      
 <details>
-  <summary>Setup Wifi Connection</summary>
+  <summary>Internet Setup ( if ping did not work )</summary>
 	
 - List your network INTERFACE names
 
