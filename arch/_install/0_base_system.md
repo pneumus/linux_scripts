@@ -39,7 +39,7 @@ Check your disks and partitions
 
 	lsblk
     
-Erase the disk partitions
+Erase the disk partitions on a specific disk ( nvme0n1 )
 	
 	gdisk /dev/nvme0n1
 	Press x, z, y and y again
