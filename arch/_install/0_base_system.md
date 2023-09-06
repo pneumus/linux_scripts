@@ -35,6 +35,9 @@ Check if you really have Internet
   
 </details>
 
+Check your disks and partitions
+
+	lsblk
     
 Erase the disk partitions
 	
