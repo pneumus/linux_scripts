@@ -37,4 +37,14 @@ Install Browser
         yay -Syu google-chrome 
         ( yay -Syu brave )
 
-          
+Install Wine
+
+- Uncomment multilib section in /etc/pacman.conf
+
+        [multilib]
+        Include = /etc/pacman.d/mirrorlist
+
+- Install necessary libraries
+
+        pacman -Sy wine wine-gecko wine-mono 
+      
