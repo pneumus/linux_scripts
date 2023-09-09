@@ -46,5 +46,7 @@ Install Wine
 
 2. Install necessary libraries
 
-        pacman -Sy wine wine-gecko wine-mono 
+        pacman -Sy wine wine-gecko wine-mono
+
+- Alternatively you can install wine-wayland from [here](https://github.com/varmd/wine-wayland)
       
