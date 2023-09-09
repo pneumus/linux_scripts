@@ -1,6 +1,8 @@
 # Desktop Environment - Basic Installation Guide
 
-Install KDE ( Bare Minimum )
+## Install KDE
+
+Install Bare Minimum for KDE
 
     pacman -S xorg plasma-desktop plasma-wayland-session sddm
   
