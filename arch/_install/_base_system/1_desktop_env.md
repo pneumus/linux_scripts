@@ -13,15 +13,15 @@ Install very important packages
 
     pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark gedit
 
-Setup Bluetooth
-
-    pacman -S bluez bluez-utils bluedevil
-    systemctl enable bluetooth
-
 Disable KDE Wallet ( Optional )
 
     rm -rf  ~/.config/kwalletrc && printf "[Wallet]\nEnabled=false" > ~/.config/kwalletrc
     reboot
+    
+Setup Bluetooth
+
+    pacman -S bluez bluez-utils bluedevil
+    systemctl enable bluetooth
 
 Install Browser 
 
