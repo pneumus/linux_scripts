@@ -1,4 +1,4 @@
-# Desktop Environment ( KDE / Gnome / XFCE ) - Basic Installation Guide
+# Desktop Environment - Basic Installation Guide
 
 Install KDE ( Bare Minimum )
 
