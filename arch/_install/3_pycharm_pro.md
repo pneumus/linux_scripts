@@ -1,4 +1,4 @@
-# Install Custom Apps on Arch Linux
+# Install PyCharm Professional on Arch Linux
 
 ## Install PyCharm Professional
 
