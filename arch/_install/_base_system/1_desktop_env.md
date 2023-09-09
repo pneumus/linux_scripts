@@ -39,12 +39,12 @@ Install Browser
 
 Install Wine
 
-- Uncomment multilib section in /etc/pacman.conf
+1. Uncomment multilib section in /etc/pacman.conf
 
         [multilib]
         Include = /etc/pacman.d/mirrorlist
 
-- Install necessary libraries
+2. Install necessary libraries
 
         pacman -Sy wine wine-gecko wine-mono 
       
