@@ -6,3 +6,11 @@
   2. Extract the file into your home folder
   3. Execute ./pycharm.sh in the bin folder
   4. Select the gear icon in the bottom left corner to create Start Menu or Desktop Entry
+
+## Customize PyCharm Professional
+
+  1. Press Ctrl+Alt+S to open Settings
+  2. Select Editor -> General in the left pane
+  3. Tick "Change font size with Ctrl+Mouse" and select "All Editors"
+  4. Select "Appearance & Behavior -> Appearance" in the left pane
+  5. Choose Theme and Custom Font
