@@ -4,10 +4,18 @@
 
   1. Download the *.tar.gz file from the [WebSite](https://www.jetbrains.com/pycharm/download/?section=linux)
   2. Extract the file into your home folder
-  3. Execute ./pycharm.sh in the bin folder
+  3. Execute pycharm.sh in the bin folder as root
   4. Select the gear icon in the bottom left corner to create Start Menu or Desktop Entry
 
-## Customize PyCharm Professional
+## Make it run as root
+
+  1. Search for PyCharm in the Start Menu
+  2. Right click -> Edit Application
+  3. Application Tab -> Advanced Options
+  4. Tick "Run as different user" -> Type "root" as username
+  5. Click OK
+
+## Customize the Appearance
 
   1. Press Ctrl+Alt+S to open Settings
   2. Select Editor -> General in the left pane
