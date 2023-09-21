@@ -1,4 +1,6 @@
-# NVIDIA Proprietary Driver Setup for Arch Linux
+# Install Drivers for Arch Linux
+
+## NVIDIA Proprietary Driver Setup for Arch Linux
 
 Check your Video Card(s) and Driver(s)
 
