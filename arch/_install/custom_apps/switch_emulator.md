@@ -12,6 +12,7 @@ Option (B) - Classic Way - Download yuzu from the [website](https://yuzu-emu.org
 4. Go to nand/system/contents/registered
 5. Extract the contents of the Firmware zip file here
 6. Go to the yuzu Folder again
-7. Extract the contents of the ProdKeys zip file to the keys folder
+7. Navigate to the keys folder and extract your Keys zip file here
 8. Create a games folder anywhere and simply drag and drop it into yuzu
-9. Done.
+9. Restart yuzu
+10. Done.
