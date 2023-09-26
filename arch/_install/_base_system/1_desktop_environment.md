@@ -13,7 +13,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark gedit packagekit-qt5 discover
+    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover
 
 Disable KDE Wallet ( Optional )
 
@@ -24,6 +24,12 @@ Setup Bluetooth
 
     pacman -S bluez bluez-utils bluedevil
     systemctl enable bluetooth
+
+Add Hotkey to Spectacle
+
+    1. Open Spectacle
+    2. Select: Configure -> Shortcuts
+    3. Add Shift+Ctrl+S as Capture Rectangular Region
 
 Install Browser 
 
