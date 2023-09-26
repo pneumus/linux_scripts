@@ -11,3 +11,5 @@ Option (B) - Classic Way - Download yuzu from the [website](https://yuzu-emu.org
 3. Select: File -> Open yuzu Folder
 4. Go to nand/system/contents/registered
 5. Extract the contents of the Firmware zip file here
+6. Go to the yuzu Folder again
+7. Extract the contents of the ProdKeys zip file to the keys folder
