@@ -13,7 +13,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark gedit
+    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark gedit packagekit-qt5 discover
 
 Disable KDE Wallet ( Optional )
 
