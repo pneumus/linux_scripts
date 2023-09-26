@@ -2,7 +2,8 @@
 
 ## Installation Process
 
-1. Search for "yuzu" in your Software Center ( ie. Discover ) and install it
+Option (A) - Easy Way - Search for "yuzu" in your Software Center ( ie. Discover ) and install it
+Option (B) - Download yuzu from the [website](https://yuzu-emu.org/downloads/#linux) and follow the instructions to install it
 
 ## Configuration Process
 1. Google and Download the latest firmware and prod keys for yuzu
