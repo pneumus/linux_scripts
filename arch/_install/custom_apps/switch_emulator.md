@@ -6,7 +6,7 @@ Option (A) - Easy Way - Search for "yuzu" in your Software Center ( ie. Discover
 Option (B) - Classic Way - Download yuzu from the [website](https://yuzu-emu.org/downloads/#linux) and follow the instructions to install it  
 
 ## Configuration Process
-1. Google and Download the latest firmware and prod keys for yuzu
+1. Google and Download the latest firmware and prod keys for yuzu ( ie. oldroms.com )
 2. Open yuzu emulator
 3. Select: File -> Open yuzu Folder
 4. Go to nand/system/contents/registered
