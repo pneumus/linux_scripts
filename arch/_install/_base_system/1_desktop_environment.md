@@ -2,6 +2,9 @@
 
 ## Install KDE
 
+Note: iwctl will not work as root. 
+Either add root to the "wheel" group or login as normal user.
+
 Install the Bare Minimum for KDE
 
     pacman -S xorg plasma-desktop plasma-wayland-session sddm
