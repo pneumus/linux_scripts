@@ -14,10 +14,6 @@ Check if you really have Internet
 <details>
   <summary>Internet Setup ( if ping did not work )</summary>
 
-Warning! You won't be able to use iwctl after reboot if you are root.
-Either add the root user to the "wheel" group
-or simply login as a normal user!
-
 - List your network INTERFACE names
 
 		iwconfig
