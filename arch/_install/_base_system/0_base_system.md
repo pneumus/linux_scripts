@@ -75,7 +75,7 @@ Automatic time sync (NTP) &ensp;-&ensp; True &nbsp;
 &nbsp;  
 And select "Install"
 
-After the installation has finished, chroot into your installed system and DO NOT REBOOT yet!
+### After the installation has finished, chroot into your installed system and DO NOT REBOOT yet!
     
 To install any desktop environment follow this tutorial:
 
