@@ -20,7 +20,7 @@ Option (B) - Classic Way - Download yuzu from the [website](https://yuzu-emu.org
 ### Video Configuration
 1. Go to Emulation -> Configure -> Graphics
 2. Set the following Settings:  
-   &nbsp;[pic]![image](https://github.com/sonus89/linux_scripts/assets/10185202/8d472786-a798-4f11-a225-1f9b60b96cf2)
+   &nbsp;![image](https://github.com/sonus89/linux_scripts/assets/10185202/8d472786-a798-4f11-a225-1f9b60b96cf2)
 
 
 ### Controller Configuration
