@@ -79,4 +79,4 @@ After the installation has finished, chroot into your installed system and DO NO
     
 To install any desktop environment follow this tutorial:
 
-&emsp;[Desktop Environment](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/_base_system/1_desktop_environment.md)
+&emsp;[Desktop Environment Installation Guide](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/_base_system/1_desktop_environment.md)
