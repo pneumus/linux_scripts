@@ -22,7 +22,7 @@ or simply login as a normal user!
 
 		iwconfig
 	
-- Turn on your wifi adapter 
+- Turn on your network adapter
 	
   		ip link set <INTERFACE> up
 		
