@@ -20,4 +20,4 @@ Reboot
 
 ### NVIDIA Vulkan Support
 
-    From [this website](https://www.nvidia.com/en-us/drivers/unix/) Download the NVIDIA Vulkan Driver
+From [this website](https://www.nvidia.com/en-us/drivers/unix/) Download the NVIDIA Vulkan Driver
