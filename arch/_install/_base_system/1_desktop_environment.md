@@ -1,6 +1,6 @@
 # Desktop Environment - Basic Installation Guide
 
-## Install KDE
+## Install & Customize KDE
 
 Install the Bare Minimum for KDE
 
