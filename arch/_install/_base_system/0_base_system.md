@@ -77,6 +77,6 @@ And select "Install"
 
 After the installation has finished, chroot into your installed system and DO NOT REBOOT yet!
     
-To install any desktop environment follow these tutorials:
+To install any desktop environment follow this tutorial:
 
 &emsp;[Desktop Environment](https://github.com/sonus89/linux_scripts/blob/master/arch/_install/_base_system/1_desktop_environment.md)
