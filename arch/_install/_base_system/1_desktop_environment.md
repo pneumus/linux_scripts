@@ -33,7 +33,8 @@ Add Hotkey to Spectacle
     3. Add Win+Shift+S as Capture Rectangular Region
 
 Customize Look and Feel
-- General Settings -> Clicking Files and Folders -> Selects them
+- General Bahavior -> Clicking Files and Folders -> Selects them
+- Optionally open "Global Theme" and select "Breeze Dark"
 
 Install Browser 
 
