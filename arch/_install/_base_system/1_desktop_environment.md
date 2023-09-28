@@ -30,7 +30,7 @@ Add Hotkey to Spectacle
 
     1. Open Spectacle
     2. Select: Configure -> Shortcuts
-    3. Add Shift+Ctrl+S as Capture Rectangular Region
+    3. Add Win+Shift+S as Capture Rectangular Region
 
 Customize Look and Feel
 - General Settings -> Clicking Files and Folders -> Selects them
