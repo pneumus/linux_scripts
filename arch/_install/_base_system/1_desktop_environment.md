@@ -10,6 +10,7 @@ Enable Display Manager & NetworkManager
 
     systemctl enable sddm
     systemctl enable NetworkManager
+    reboot
 
 Install very important packages
 
