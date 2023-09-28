@@ -31,6 +31,9 @@ Add Hotkey to Spectacle
     2. Select: Configure -> Shortcuts
     3. Add Shift+Ctrl+S as Capture Rectangular Region
 
+Customize Look and Feel
+- General Settings -> Clicking Files and Folders -> Selects them
+
 Install Browser 
 
 - Firefox
