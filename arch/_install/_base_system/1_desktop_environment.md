@@ -24,7 +24,7 @@ Disable KDE Wallet ( Optional )
 Setup Bluetooth
 
     pacman -S bluez bluez-utils bluedevil
-    systemctl enable bluetooth
+    systemctl enable --now bluetooth
 
 Add Hotkey to Spectacle
 
