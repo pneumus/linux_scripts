@@ -12,7 +12,7 @@ Update your system
 
 Install necessary packages
 
-    pacman -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader vulkan-icd-loader xorg-server-devel opencl-nvidia vulkan-tools
+    pacman -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings nvidia-prime vulkan-icd-loader vulkan-tools vulkan-icd-loader xorg-server-devel opencl-nvidia 
 
 Reboot
 
