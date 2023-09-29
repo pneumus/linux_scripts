@@ -26,7 +26,7 @@ Setup Bluetooth
     pacman -S bluez bluez-utils bluedevil
     systemctl enable --now bluetooth
 
-Add Hotkey to Spectacle
+Add Hotkey for Screenshot
 
     1. Open Spectacle
     2. Select: Configure -> Shortcuts
