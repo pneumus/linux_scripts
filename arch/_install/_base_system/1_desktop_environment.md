@@ -14,7 +14,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover
+    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover kscreen
 
 Disable KDE Wallet ( Optional )
 
@@ -35,6 +35,7 @@ Add Hotkey to Spectacle
 Customize Look and Feel
 - General Bahavior -> Clicking Files and Folders -> Selects them
 - Optionally open "Global Theme" and select "Breeze Dark"
+- Optionally open "Display Configuration" and enable "Night Color"
 
 Install Browser 
 
