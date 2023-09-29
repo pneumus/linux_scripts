@@ -17,3 +17,5 @@ Install necessary packages
 Reboot
 
     reboot
+
+Note: To execute a specific program with the NVIDIA Card ( ie. Vulkan Support ) user [prime-run](https://wiki.archlinux.org/title/PRIME#PRIME_render_offload)
