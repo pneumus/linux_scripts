@@ -32,7 +32,6 @@ sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nf
 ```sh
 sudo systemctl enable --now libvirtd.service
 ```
-###### *Note: The --now switch will enable and start the service immediately*
 
 &nbsp;&nbsp;
 ##### Add your user to the QEMU related groups and reboot the PC
