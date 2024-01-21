@@ -26,6 +26,14 @@ Setup Bluetooth
     pacman -S bluez bluez-utils bluedevil
     systemctl enable --now bluetooth
 
+Configure Keyboard Layout
+1. System Settings
+2. Input Devices
+3. Keyboard
+4. Layouts
+5. Tick "Configure Layouts"
+6. Click +Add and Apply
+
 Add Hotkey for Screenshot
 
     1. Open Spectacle
