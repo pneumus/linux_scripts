@@ -10,11 +10,11 @@ Enable Display Manager & NetworkManager
 
     systemctl enable sddm
     systemctl enable NetworkManager
-    reboot
 
 Install very important packages
 
     pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover kscreen
+    reboot
 
 Disable KDE Wallet ( Optional )
 
