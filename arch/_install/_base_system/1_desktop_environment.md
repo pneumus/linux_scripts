@@ -4,7 +4,7 @@
 
 Install the Bare Minimum for KDE
 
-    pacman -S xorg plasma-desktop plasma-wayland-session sddm
+    pacman -S xorg plasma-desktop sddm
   
 Enable Display Manager & NetworkManager
 
