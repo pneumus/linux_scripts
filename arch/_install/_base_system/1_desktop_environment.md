@@ -21,8 +21,10 @@ Setup Bluetooth
     pacman -S bluez bluez-utils bluedevil
     systemctl enable bluetooth
 
-exit
-reboot
+Unchroot and reboot
+
+    exit
+    reboot
 
 Configure Keyboard Layout
 1. System Settings
