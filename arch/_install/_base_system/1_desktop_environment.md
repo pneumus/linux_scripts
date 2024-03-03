@@ -45,6 +45,12 @@ Customize Look and Feel
 - Optionally open "Global Theme" and select "Breeze Dark"
 - Optionally open "Display Configuration" and enable "Night Color"
 
+Install yay Package Manager
+
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+    
 Install Browser 
 
 - Firefox
@@ -53,7 +59,6 @@ Install Browser
     
 - Google Chrome ( or Brave )
         
-        pacman -Syu yay
         yay -Syu google-chrome 
         ( yay -Syu brave )
 
