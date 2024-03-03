@@ -19,7 +19,7 @@ Install very important packages
 Setup Bluetooth
 
     pacman -S bluez bluez-utils bluedevil
-    systemctl enable --now bluetooth
+    systemctl enable bluetooth
 
 exit
 reboot
