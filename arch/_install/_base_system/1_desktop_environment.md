@@ -15,16 +15,14 @@ Install very important packages
 
     pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover kscreen
     reboot
-
-Disable KDE Wallet ( Optional )
-
-    rm -rf  ~/.config/kwalletrc && printf "[Wallet]\nEnabled=false" > ~/.config/kwalletrc
-    reboot
-    
+  
 Setup Bluetooth
 
     pacman -S bluez bluez-utils bluedevil
     systemctl enable --now bluetooth
+
+exit
+reboot
 
 Configure Keyboard Layout
 1. System Settings
