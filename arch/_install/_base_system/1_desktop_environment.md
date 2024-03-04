@@ -13,7 +13,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole spectacle plasma-nm plasma-pa ktorrent gwenview ark unrar p7zip gedit packagekit-qt5 discover kscreen
+    pacman -S dolphin konsole plasma-nm plasma-pa packagekit-qt5 discover kscreen gwenview gedit firefox ark spectacle ktorrent
     reboot
   
 Setup Bluetooth
@@ -50,28 +50,4 @@ Install yay Package Manager
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
-    
-Install Browser 
 
-- Firefox
-
-        pacman -S firefox
-    
-- Google Chrome ( or Brave )
-        
-        yay -Syu google-chrome 
-        ( yay -Syu brave )
-
-Install Wine
-
-1. Uncomment multilib section in /etc/pacman.conf
-
-        [multilib]
-        Include = /etc/pacman.d/mirrorlist
-
-2. Install necessary libraries
-
-        pacman -Sy wine wine-gecko wine-mono
-
-- Alternatively you can install wine-wayland from [here](https://github.com/varmd/wine-wayland)
-      
