@@ -26,24 +26,16 @@ Unchroot and reboot
     exit
     reboot
 
-Configure Keyboard Layout
-1. System Settings
-2. Input Devices
-3. Keyboard
-4. Layouts
-5. Tick "Configure Layouts"
-6. Click +Add and Apply
+Customize Look and Feel
+- General Bahavior -> Clicking Files and Folders -> Selects them
+- Optionally open "Global Theme" and select "Breeze Dark"
+- Optionally open "Display Configuration" and enable "Night Color"
 
 Add Hotkey for Screenshot
 
     1. Open Spectacle
     2. Select: Configure -> Shortcuts
     3. Add Win+Shift+S as Capture Rectangular Region
-
-Customize Look and Feel
-- General Bahavior -> Clicking Files and Folders -> Selects them
-- Optionally open "Global Theme" and select "Breeze Dark"
-- Optionally open "Display Configuration" and enable "Night Color"
 
 Install yay Package Manager
 
