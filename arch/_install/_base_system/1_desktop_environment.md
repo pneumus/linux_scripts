@@ -13,7 +13,7 @@ Enable Display Manager & NetworkManager
 
 Install very important packages
 
-    pacman -S dolphin konsole plasma-nm plasma-pa packagekit-qt5 discover kscreen gwenview gedit firefox ark spectacle ktorrent
+    pacman -S dolphin konsole plasma-nm plasma-pa packagekit-qt5 discover kscreen gwenview gedit firefox spectacle ktorrent ark p7zip unrar
     reboot
   
 Setup Bluetooth
