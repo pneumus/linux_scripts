@@ -25,3 +25,10 @@ Alternatively:
 
 Download the driver from NVIDIA's webpage
 ![image](https://github.com/sonus89/linux_scripts/assets/10185202/4292c6d9-c63c-45dc-8d5f-2248aa934a0d)
+
+
+# Missing Firmware Drivers
+
+xhci_pci
+
+    https://aur.archlinux.org/packages/upd72020x-fw
