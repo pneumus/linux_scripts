@@ -34,6 +34,8 @@ Customize Look and Feel
     - Appearance -> Global Theme -> Get New Global Themes -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
     - Appearance -> Icons -> Select Folder Icons ( i.e. BeautyFolders )
     - Display and Monitor -> Night Color
+    - Workspace Behavior -> Desktop Effects -> Select the followings:
+    -     Magic Lamp
 
 Add Hotkey for Screenshot
 
