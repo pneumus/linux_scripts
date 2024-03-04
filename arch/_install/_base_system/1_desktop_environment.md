@@ -27,7 +27,7 @@ Unchroot and reboot
     reboot
 
 Customize Look and Feel
-- General Bahavior -> Clicking Files and Folders -> Selects them
+- General Behavior -> Clicking Files and Folders -> Selects them
 - Optionally open "Global Theme" and select "Breeze Dark"
 - Optionally open "Display Configuration" and enable "Night Color"
 
