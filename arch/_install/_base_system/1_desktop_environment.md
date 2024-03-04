@@ -32,6 +32,7 @@ Customize Look and Feel
 - System Settings
     - General Behavior -> Clicking Files and Folders -> Selects them
     - Appearance -> Global Theme -> Get New Global Themes -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
+    - Appearance -> Icons -> Select Folder Icons ( i.e. BeautyFolders )
 - Optionally open "Display Configuration" and enable "Night Color"
 
 Add Hotkey for Screenshot
