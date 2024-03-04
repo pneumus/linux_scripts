@@ -35,7 +35,7 @@ Customize Look and Feel
     - Appearance -> Icons -> Select Folder Icons ( i.e. BeautyFolders )
     - Display and Monitor -> Night Color
     - Workspace Behavior -> Desktop Effects -> Select the followings:
-    -     Magic Lamp
+        - Magic Lamp
 
 Add Hotkey for Screenshot
 
