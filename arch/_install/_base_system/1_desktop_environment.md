@@ -27,8 +27,11 @@ Unchroot and reboot
     reboot
 
 Customize Look and Feel
-- General Behavior -> Clicking Files and Folders -> Selects them
-- Optionally open "Global Theme" and select "Breeze Dark"
+
+- Firefox -> Settings -> General -> Dark
+- System Settings
+    - General Behavior -> Clicking Files and Folders -> Selects them
+    - Appearance -> Global Theme -> Get New Global Themes -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
 - Optionally open "Display Configuration" and enable "Night Color"
 
 Add Hotkey for Screenshot
