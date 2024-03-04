@@ -36,7 +36,8 @@ Customize Look and Feel
     - Display and Monitor -> Night Color
     - Workspace Behavior -> Desktop Effects -> Select the followings:
         - Magic Lamp
-
+        - Blur
+          
 Add Hotkey for Screenshot
 
     1. Open Spectacle
