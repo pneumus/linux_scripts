@@ -1,6 +1,14 @@
 # Configure Static IP Address on Linux
 
 &nbsp;
+##### Easiest Way
+```sh
+sudo pacman -S nm-connection-editor
+sudo nm-connection-editor
+```
+
+# Fully Manual Way
+&nbsp;
 ##### List Network Adapters
 ```sh
 nmcli connection show
