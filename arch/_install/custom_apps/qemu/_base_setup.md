@@ -19,24 +19,21 @@ LC_ALL=C lscpu | grep Virtualization
 &nbsp;&nbsp;
 ##### Install Prerequisites
 ```
-pacman -S qemu-full virt-manager virt-viewer dnsmasq bridge-utils libguestfs ebtables vde2 openbsd-netcat
+pacman -S qemu-full virt-manager virt-viewer dnsmasq 
+pacman -S bridge-utils libguestfs ebtables vde2 openbsd-netcat
 ```
 
 &nbsp;&nbsp;
 ##### Edit libvirt config file
-```
+```sh
 sudo vi /etc/libvirt/libvirtd.conf
 ```
+
 Uncomment these lines:
-```
+```sh
 unix_sock_group = "libvirt"
 unix_sock_rw_perms = "0770"
 ```
-
-&nbsp;&nbsp;
-##### Install the polkit for your Desktop Environment
-&emsp;Check the ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit) to install the necessary package
-###### *Note: The package is called polkit-kde-agent for KDE and polkit-gnome for Gnome Environment*
 
 &nbsp;&nbsp;
 ##### Enable Virtualization Service
