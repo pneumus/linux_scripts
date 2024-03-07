@@ -6,7 +6,7 @@
 nmcli connection show
 ```
 &nbsp;&nbsp;
-Example Output - Copy the UUID of the desired device
+##### Example Output - Copy the UUID of the desired device
 ```sh
 NAME      UUID                                  TYPE      DEVICE 
 wired     fa19249d-d349-37ca-b115-b6a7b4fb8639  ethernet  enp3s0 
