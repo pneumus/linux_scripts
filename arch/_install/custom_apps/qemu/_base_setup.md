@@ -18,8 +18,8 @@ LC_ALL=C lscpu | grep Virtualization
 
 &nbsp;&nbsp;
 ##### Install Prerequisites
-```sh
-sudo pacman -S qemu libvirt edk2-ovmf virt-manager virt-viewer swtpm iptables-nft dnsmasq
+```
+pacman -S qemu-full virt-manager virt-viewer dnsmasq bridge-utils libguestfs ebtables vde2 openbsd-netcat
 ```
 
 &nbsp;&nbsp;
