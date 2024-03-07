@@ -23,6 +23,17 @@ pacman -S qemu-full virt-manager virt-viewer dnsmasq bridge-utils libguestfs ebt
 ```
 
 &nbsp;&nbsp;
+##### Edit libvirt config file
+```
+sudo vi /etc/libvirt/libvirtd.conf
+```
+Uncomment these lines:
+```
+unix_sock_group = "libvirt"
+unix_sock_rw_perms = "0770"
+```
+
+&nbsp;&nbsp;
 ##### Install the polkit for your Desktop Environment
 &emsp;Check the ArchWiki for [Polkit](https://wiki.archlinux.org/title/Polkit) to install the necessary package
 ###### *Note: The package is called polkit-kde-agent for KDE and polkit-gnome for Gnome Environment*
