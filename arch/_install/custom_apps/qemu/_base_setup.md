@@ -17,6 +17,12 @@ LC_ALL=C lscpu | grep Virtualization
 - Based on the details, google how to enable Virtualization in BIOS ( UEFI ) and enable it
 
 &nbsp;&nbsp;
+##### Update your System
+```
+sudo pacman -Syyu
+```
+
+&nbsp;&nbsp;
 ##### Install Prerequisites
 ```
 pacman -S qemu-full virt-manager virt-viewer dnsmasq 
