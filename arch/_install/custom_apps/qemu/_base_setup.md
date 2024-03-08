@@ -57,6 +57,18 @@ reboot
 ###### *Note: This will alow you to open the Virtual Machine Manager without password prompt*
 
 &nbsp;&nbsp;
+##### Enable Virtual Network
+```sh
+sudo virsh net-start default 
+```
+
+&nbsp;&nbsp;
+##### Confirm Virtual Network
+```sh
+sudo virsh net-list --all
+```
+
+&nbsp;&nbsp;
 ##### Open the Virtual Machine Manager
 ```sh
 virt-manager
