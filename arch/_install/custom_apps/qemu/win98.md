@@ -1,8 +1,10 @@
 # Install & Configure Windows 98 for QEMU
 
 #### Create a folder and enter it
+```console
 mkdir win98se_vm
 cd win98se_vm
+```
 
 #### Create QCOW2 Image
 ```console
