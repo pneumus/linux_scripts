@@ -4,6 +4,9 @@
 ```console
 qemu-img create -f qcow2 w98.qcw 1024M
 ```
+#### Download the *.IMA file from [here](https://github.com/JHRobotics/patcher9x/releases/)
+#### and rename it to fd.ima
+
 #### Setup the virtual hardware & Boot Up
 ```console
 qemu-system-i386 -nodefaults -rtc base=localtime -display sdl \
