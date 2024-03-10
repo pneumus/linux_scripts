@@ -1,4 +1,4 @@
-# Install Windows 98 for QEMU
+# Install & Configure Windows 98 for QEMU
 
 #### Create QCOW2 Image
 ```console
