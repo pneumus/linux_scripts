@@ -1,5 +1,9 @@
 # Install & Configure Windows 98 for QEMU
 
+#### Create a folder and enter it
+mkdir win98se_vm
+cd win98se_vm
+
 #### Create QCOW2 Image
 ```console
 qemu-img create -f qcow2 w98.qcw 1024M
