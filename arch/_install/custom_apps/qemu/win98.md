@@ -11,7 +11,7 @@ cd win98se_vm
 qemu-img create -f qcow2 w98.qcw 1024M
 ```
 #### Download the Patcher9x*.IMA file to the folder from [here](https://github.com/JHRobotics/patcher9x/releases/) and rename it to fd.ima
-
+#### Download the Windows98SE.iso file to the folder and rename it to w98se.iso
 #### Clone the git repo
 git clone git@github.com:JHRobotics/patcher9x.git
 
