@@ -29,6 +29,7 @@ Unchroot and reboot
 Customize Look and Feel
 
 - Firefox -> Settings -> General -> Dark
+- Firefox -> Type "about:config" -> Paste "dom.ipc.processCount.webIsolated" -> Change value to 1
 - System Settings
     - General Behavior -> Clicking Files and Folders -> Selects them
     - Appearance -> Global Theme -> Get New Global Themes -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
