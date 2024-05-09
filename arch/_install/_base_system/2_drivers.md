@@ -32,3 +32,7 @@ Download the driver from NVIDIA's webpage
 xhci_pci
 
     https://aur.archlinux.org/packages/upd72020x-fw
+
+# MX-Keys ( Keyboard & Mouse ) with Unifying Receiver ( dongle )
+
+    sudo pacman -Sy solaar
