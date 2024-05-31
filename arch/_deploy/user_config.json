@@ -1,0 +1,139 @@
+{
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pulseaudio"
+    },
+    "bootloader": "Systemd-boot",
+    "config_version": "2.8.0",
+    "debug": false,
+    "disk_config": {
+        "config_type": "default_layout",
+        "device_modifications": [
+            {
+                "device": "/dev/nvme0n1",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [
+                            "Boot",
+                            "ESP"
+                        ],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "dee24e1b-0d74-4bf0-9ebd-88deab892169",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 1
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "MiB",
+                            "value": 1
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "ext4",
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "0f1d4737-bad3-4067-a6d7-07cc1c80ec7a",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 2047332409344
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 1074790400
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": true
+            }
+        ]
+    },
+    "disk_encryption": null,
+    "hostname": "archibald",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "hu",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "mirror_config": {
+        "custom_mirrors": [],
+        "mirror_regions": {
+            "Switzerland": [
+                "https://theswissbay.ch/archlinux/$repo/os/$arch",
+                "https://pkg.adfinis.com/archlinux/$repo/os/$arch",
+                "https://pkg.adfinis-on-exoscale.ch/archlinux/$repo/os/$arch",
+                "https://pkg.adfinis-on-exoscale.ch/archlinux-pkgbuild/$repo/os/$arch",
+                "https://mirror.ungleich.ch/mirror/packages/archlinux/$repo/os/$arch",
+                "https://mirror.puzzle.ch/archlinux/$repo/os/$arch",
+                "https://mirror.init7.net/archlinux/$repo/os/$arch",
+                "http://pkg.adfinis.com/archlinux/$repo/os/$arch",
+                "http://pkg.adfinis-on-exoscale.ch/archlinux/$repo/os/$arch",
+                "http://pkg.adfinis-on-exoscale.ch/archlinux-pkgbuild/$repo/os/$arch",
+                "http://mirror.puzzle.ch/archlinux/$repo/os/$arch",
+                "http://mirror.init7.net/archlinux/$repo/os/$arch"
+            ]
+        }
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [
+        "usbutils",
+        "git",
+        "base-devel",
+        "openssh",
+        "wget",
+        "vi"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "script": "guided",
+    "silent": false,
+    "skip_ntp": false,
+    "skip_version_check": false,
+    "swap": false,
+    "timezone": "Europe/Zurich",
+    "uki": false,
+    "version": "2.8.0"
+}
