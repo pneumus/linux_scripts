@@ -59,7 +59,7 @@ reboot
 &nbsp;&nbsp;
 ##### Enable Virtual Network
 ```sh
-sudo virsh net-start default 
+sudo virsh net-autostart default
 ```
 
 &nbsp;&nbsp;
