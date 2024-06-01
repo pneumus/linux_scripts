@@ -2,15 +2,13 @@
 
 ## Install Prerequisites
 
-  """
-  sudo pacman -S appmenu-gtk-module
-  """
+    sudo pacman -S appmenu-gtk-module
 
 ## Install PyCharm Professional
 
-  git clone https://aur.archlinux.org/pycharm-professional.git
-  cd pycharm-professional
-  makepkg -si
+    git clone https://aur.archlinux.org/pycharm-professional.git
+    cd pycharm-professional
+    makepkg -si
 
 ## Make it run as root
 
