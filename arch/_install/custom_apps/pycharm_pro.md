@@ -2,7 +2,9 @@
 
 ## Install Prerequisites
 
+  """
   sudo pacman -S appmenu-gtk-module
+  """
 
 ## Install PyCharm Professional
 
