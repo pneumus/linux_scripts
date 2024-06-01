@@ -1,11 +1,14 @@
 # Install PyCharm Professional on Arch Linux
 
+## Install Prerequisites
+
+  sudo pacman -S appmenu-gtk-module
+
 ## Install PyCharm Professional
 
-  1. Download the *.tar.gz file from the [WebSite](https://www.jetbrains.com/pycharm/download/?section=linux)
-  2. Extract the file into your home folder
-  3. Execute pycharm.sh in the bin folder as root
-  4. Select the gear icon in the bottom left corner to create Start Menu or Desktop Entry
+  git clone https://aur.archlinux.org/pycharm-professional.git
+  cd pycharm-professional
+  makepkg -si
 
 ## Make it run as root
 
