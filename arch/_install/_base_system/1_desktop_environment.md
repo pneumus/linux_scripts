@@ -29,14 +29,11 @@ Unchroot and reboot
 Customize Look and Feel
 
 - Firefox -> Settings -> General -> Dark
-- Firefox -> Type "about:config" -> Paste "dom.ipc.processCount.webIsolated" -> Change value to 1
-- Do the same with "dom.ipc.processcount"
 - System Settings
-    - General Behavior -> Clicking Files and Folders -> Selects them
-    - Appearance -> Global Theme -> Get New Global Themes -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
-    - Appearance -> Icons -> Select Folder Icons ( i.e. BeautyFolders )
-    - Display and Monitor -> Night Color
-    - Workspace Behavior -> Desktop Effects -> Select the followings:
+    - Appearance -> Global Theme -> Get New -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
+    - Global Theme -> Night Light
+    - Window Management -> Desktop Effects
+        Select the followings:
         - Magic Lamp
         - Blur
 - Konsole -> Settings -> Configure Konsole -> Profiles -> New -> OK -> Select new Profile -> Set as Default -> Edit -> Appearance -> Get New -> Select Color Scheme ( i.e. Utterly Sweet ) -> Install & Apply 
