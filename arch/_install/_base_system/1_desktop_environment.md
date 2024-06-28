@@ -32,8 +32,7 @@ Customize Look and Feel
 - System Settings
     - Appearance -> Global Theme -> Get New -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
     - Global Theme -> Night Light
-    - Window Management -> Desktop Effects
-        Select the followings:
+    - Window Management -> Desktop Effects -> Select the followings:
         - Magic Lamp
         - Blur
 - Konsole -> Settings -> Configure Konsole -> Profiles -> New -> OK -> Select new Profile -> Set as Default -> Edit -> Appearance -> Get New -> Select Color Scheme ( i.e. Utterly Sweet ) -> Install & Apply 
