@@ -8,7 +8,6 @@ Install the Bare Minimum for KDE
   
 Enable Display Manager & NetworkManager
 
-    systemctl enable sddm
     systemctl enable NetworkManager
 
 Install very important packages
