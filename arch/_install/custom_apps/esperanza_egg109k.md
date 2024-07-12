@@ -7,7 +7,7 @@
 6. Type "bluetoothctl connect 98:B6:55:07:A3:4A"
 7. The following response is correct:
 
-    '''
+    ```bash
     [bluetooth]# connect 98:B6:55:07:A3:4A  
     Attempting to connect to 98:B6:55:07:A3:4A  
     [CHG] Device 98:B6:55:07:A3:4A Connected: yes  
@@ -18,6 +18,6 @@
     [CHG] Device 98:B6:55:07:A3:4A ServicesResolved: yes  
     [CHG] Device 98:B6:55:07:A3:4A WakeAllowed: yes  
     [CHG] Device 98:B6:55:07:A3:4A Paired: yes  
-    '''
+    ```
 
 8. Connected ( LED is turned on at a channel number )
