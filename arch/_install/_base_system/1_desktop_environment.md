@@ -28,7 +28,7 @@ Unchroot and reboot
 Customize Look and Feel
 
 - Firefox -> Settings -> General -> Dark
-- System Settings
+- Customize KDE
     - Global Theme -> Get New -> Download a Theme ( i.e. Utterly Sweet )
     - Night Light
     - Desktop Effects
