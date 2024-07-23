@@ -29,11 +29,12 @@ Customize Look and Feel
 
 - Firefox -> Settings -> General -> Dark
 - System Settings
-    - Appearance -> Global Theme -> Get New -> Download a Theme ( i.e. Utterly Sweet ) -> Apply it in Global Themes
-    - Global Theme -> Night Light
-    - Window Management -> Desktop Effects -> Select the followings:
+    - Global Theme -> Get New -> Download a Theme ( i.e. Utterly Sweet )
+    - Night Light
+    - Desktop Effects
         - Magic Lamp
         - Blur
+- Splash Screen -> Get New -> Arch 
 - Konsole -> Settings -> Configure Konsole -> Profiles -> New -> OK -> Select new Profile -> Set as Default -> Edit -> Appearance -> Get New -> Select Color Scheme ( i.e. Utterly Sweet ) -> Install & Apply 
 
 Add Hotkey for Screenshot
