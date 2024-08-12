@@ -1,5 +1,13 @@
 # Install Drivers for Arch Linux
 
+### Missing Firmware
+
+Check Point 5.4 on [this page](https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX)
+
+For Alienware X14 install the followings from AUR:
+- [ast](https://aur.archlinux.org/packages/ast-firmware)
+- [
+
 ### NVIDIA Proprietary Driver Setup for Arch Linux
 
 Check your Video Card(s) and Driver(s)
