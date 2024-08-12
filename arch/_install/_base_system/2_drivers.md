@@ -5,8 +5,14 @@
 Check Point 5.4 on [this page](https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX)
 
 For Alienware X14 install the followings from AUR:
-- [ast](https://aur.archlinux.org/packages/ast-firmware)
-- [
+- [ast](https://aur.archlinux.org/packages/ast-firmware/)
+- [xhci_pci](https://aur.archlinux.org/packages/upd72020x-fw/)
+- [qed](https://archlinux.org/packages/?name=linux-firmware-qlogic)
+- [bfa](https://archlinux.org/packages/?name=linux-firmware-qlogic)
+- [aic94xx](https://aur.archlinux.org/packages/aic94xx-firmware/)
+- [qla1280](https://archlinux.org/packages/?name=linux-firmware-qlogic)
+- [qla2xxx](https://archlinux.org/packages/?name=linux-firmware-qlogic)
+- [wd719x](https://aur.archlinux.org/packages/wd719x-firmware/)
 
 ### NVIDIA Proprietary Driver Setup for Arch Linux
 
