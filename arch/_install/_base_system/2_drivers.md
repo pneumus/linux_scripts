@@ -9,17 +9,6 @@ Check Point 5.4 on [this page](https://wiki.archlinux.org/title/Mkinitcpio#Possi
 
 To automatically deploy the missing firmware for an Alienware X14 execute [this](https://github.com/user-attachments/files/16737419/install_firmware.zip) Bash Script 
 
-To manually install the missing firmware for Alienware X14 install the followings from AUR:  
-- [ast](https://aur.archlinux.org/packages/ast-firmware/)
-- [xhci_pci](https://aur.archlinux.org/packages/upd72020x-fw/)
-- [aic94xx](https://aur.archlinux.org/packages/aic94xx-firmware/)
-- [wd719x](https://aur.archlinux.org/packages/wd719x-firmware/)
-
-For Alienware X14 install <b>linux-firmware-qlogic</b> with pacman for these firmware:
-- [qed](https://archlinux.org/packages/?name=linux-firmware-qlogic)
-- [bfa](https://archlinux.org/packages/?name=linux-firmware-qlogic)
-- [qla1280](https://archlinux.org/packages/?name=linux-firmware-qlogic)
-- [qla2xxx](https://archlinux.org/packages/?name=linux-firmware-qlogic)
 ### NVIDIA Proprietary Driver Setup for Arch Linux
 
 Check your Video Card(s) and Driver(s)
