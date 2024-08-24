@@ -6,7 +6,7 @@ Check Point 5.4 on [this page](https://wiki.archlinux.org/title/Mkinitcpio#Possi
 
 
 
-For Alienware X14 install the followings from AUR:
+For Alienware X14 install the followings from AUR:  
 Note: To automatically deploy the missing firmware for an Alienware X14 execute [this](https://github.com/user-attachments/files/16737419/install_firmware.zip) Bash Script 
 - [ast](https://aur.archlinux.org/packages/ast-firmware/)
 - [xhci_pci](https://aur.archlinux.org/packages/upd72020x-fw/)
