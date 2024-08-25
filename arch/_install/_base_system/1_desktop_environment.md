@@ -4,7 +4,7 @@
 
 Install the Bare Minimum for KDE
 
-    pacman -S xorg xorg-server xorg-xinit plasma-desktop sddm
+    pacman -S xorg xorg-server xorg-xinit plasma-desktop sddm sddm-kcm
   
 Enable Display Manager & NetworkManager
 
@@ -34,7 +34,8 @@ Customize Look and Feel
     - Desktop Effects
         - Magic Lamp
         - Blur
-- Splash Screen -> Get New -> Arch 
+- Splash Screen -> Get New -> Arch
+- Login Screen -> Get New -> Utterly Sweet
 - Konsole -> Settings -> Configure Konsole -> Profiles -> New -> OK -> Select new Profile -> Set as Default -> Edit -> Appearance -> Get New -> Select Color Scheme ( i.e. Utterly Sweet ) -> Install & Apply 
 
 Add Hotkey for Screenshot
