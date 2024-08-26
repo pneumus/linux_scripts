@@ -38,6 +38,7 @@ Customize Look and Feel
 - Splash Screen -> Get New -> Arch
 - Login Screen -> Get New -> Utterly Sweet
 - Screen Locking -> Never
+- Power Management -> Do Nothing
 - Konsole -> Settings -> Configure Konsole -> Profiles -> New -> OK -> Select new Profile -> Set as Default -> Edit -> Appearance -> Get New -> Select Color Scheme ( i.e. Utterly Sweet ) -> Install & Apply 
 
 Add Hotkey for Screenshot
